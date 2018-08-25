@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/lostrigales.css">
     <link rel="stylesheet" href="../css/responsive.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"> -->
   </head>
   <body>
     <div id="loader">
@@ -141,12 +142,6 @@
           <a href="lt-hormax.php">
             <div class="features-img"><img src="../images/logos/lt-hormax.png" alt=""></div>
             <div class="features-title bg-blue"><h3>Hormigón elaborado</h3></div>
-          </a>
-        </div>
-        <div class="features-box">
-          <a href="representaciones.php">
-            <div class="features-img"><img src="../images/logos/melon.png" alt=""></div>
-            <div class="features-title bg-green"><h3>Representaciones</h3></div>
           </a>
         </div>
       </div>
