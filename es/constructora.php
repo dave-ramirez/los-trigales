@@ -42,7 +42,7 @@
     <!-- Hover effects -->
     <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
-		<link rel="stylesheet" type="text/css" href="../css/set1.css" />
+    <link rel="stylesheet" type="text/css" href="../css/set1.css" />
   </head>
   <body>
     <div id="loader">
@@ -169,54 +169,54 @@
         <div class="title center">
           <h2>Nuestros trabajos</h2>
         </div>
-        <div class="">
+        <div>
           <div class="content">
             <div class="grid">
               <figure class="effect-milo">
-                <img src="img/11.jpg" alt="img11"/>
+                <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
                 <figcaption>
-                  <h2>Faithful <span>Milo</span></h2>
-                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="img/3.jpg" alt="img03"/>
+                <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
                 <figcaption>
-                  <h2>Faithful <span>Milo</span></h2>
-                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="img/3.jpg" alt="img03"/>
+                <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
                 <figcaption>
-                  <h2>Faithful <span>Milo</span></h2>
-                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="img/11.jpg" alt="img11"/>
+                <img src="../images/obras/super_viaducto/15.jpg" alt="img15"/>
                 <figcaption>
-                  <h2>Faithful <span>Milo</span></h2>
-                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="img/3.jpg" alt="img03"/>
+                <img src="../images/obras/super_viaducto/16.jpg" alt="img16"/>
                 <figcaption>
-                  <h2>Faithful <span>Milo</span></h2>
-                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="img/3.jpg" alt="img03"/>
+                <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
                 <figcaption>
-                  <h2>Faithful <span>Milo</span></h2>
-                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
               </figure>

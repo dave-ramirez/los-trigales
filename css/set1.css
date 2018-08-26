@@ -12,8 +12,7 @@
 .grid {
 	position: relative;
 	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1600px;
+	max-width: 1400px;
 	list-style: none;
 	text-align: center;
 }
@@ -91,6 +90,7 @@
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 68.5%;
+	color: #fff! important;
 }
 
 /* Individual effects */
@@ -1158,4 +1158,24 @@ figure.effect-chico:hover p {
 
 .hover-container{
 	width: 1800px;
+}
+
+@media (min-width:1024px){
+	.hover-container {
+		width: 1030px;
+	}
+}
+
+@media (min-width:1440px){
+	.hover-container {
+		width: 1400px;
+	}
+
+	.grid{
+		max-width: 1670px;
+	}
+
+	.grid figure{
+		max-width: 429px;
+	}
 }
