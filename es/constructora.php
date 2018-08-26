@@ -28,6 +28,8 @@
     <meta property="og:locale:alternate" content="en" />
 
     <link rel="alternate" hreflang="es" href="https://lostrigales.com.py/es" type="text/html" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+
     <meta property="og:locale:alternate" content="es" />
 
     <link rel="stylesheet" href="../css/bundle.css">
@@ -36,6 +38,11 @@
     <link rel="stylesheet" href="../css/lostrigales.css">
     <link rel="stylesheet" href="../css/fancybox.min.css">
     <link rel="stylesheet" href="../css/responsive.css">
+
+    <!-- Hover effects -->
+    <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
+		<link rel="stylesheet" type="text/css" href="../css/set1.css" />
   </head>
   <body>
     <div id="loader">
@@ -62,7 +69,7 @@
               <li><a href="transporte.php">Transporte</a></li>
               <li><a href="constructora.php">Construcciones <br>Minería</a></li>
               <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <li><a href="representaciones.php">Representaciones</a></li>
+              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
           <li><a href="contacto.php">Contacto</a></li>
@@ -157,7 +164,67 @@
         </div> 
       </div>
     </section>
-    <section id="gallery">
+    <section id="trabajos">
+      <div class="container hover-container">
+        <div class="title center">
+          <h2>Nuestros trabajos</h2>
+        </div>
+        <div class="">
+          <div class="content">
+            <div class="grid">
+              <figure class="effect-milo">
+                <img src="img/11.jpg" alt="img11"/>
+                <figcaption>
+                  <h2>Faithful <span>Milo</span></h2>
+                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="img/3.jpg" alt="img03"/>
+                <figcaption>
+                  <h2>Faithful <span>Milo</span></h2>
+                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="img/3.jpg" alt="img03"/>
+                <figcaption>
+                  <h2>Faithful <span>Milo</span></h2>
+                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="img/11.jpg" alt="img11"/>
+                <figcaption>
+                  <h2>Faithful <span>Milo</span></h2>
+                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="img/3.jpg" alt="img03"/>
+                <figcaption>
+                  <h2>Faithful <span>Milo</span></h2>
+                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="img/3.jpg" alt="img03"/>
+                <figcaption>
+                  <h2>Faithful <span>Milo</span></h2>
+                  <p>Milo went to the woods. He took a fun ride and never came back.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+            </div>
+          </div>
+        </div><!-- /container -->
+    </section>
+    <!-- <section id="gallery">
       <div class="container">
         <div class="title center">
           <h2>Galería de imágenes</h2>
@@ -194,7 +261,7 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
     <section id="clients" class="bb-0 bg-grey">
       <div class="container-big">
         <div class="title center">
@@ -288,5 +355,11 @@
             ]
           });
     </script>
+    		<script>
+			// For Demo purposes only (show hover effect on mobile devices)
+			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
+				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
+			} );
+		</script>
   </body>
 </html>
