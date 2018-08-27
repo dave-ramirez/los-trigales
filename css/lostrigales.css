@@ -1203,3 +1203,44 @@ section {
   font-style: italic;
   letter-spacing: .1em;
 }
+
+@media (max-width: 568px) {
+	.date-content{
+	  display: none;
+	}
+	.detail-text{
+	  width: 100%;
+	}
+}
+
+@media (min-width: 320px){
+  .titulo-work h2{
+    font-size: 20px;  
+  }
+}
+
+@media (min-width: 375px){
+  .titulo-work h2{
+    font-size: 30px;  
+  }
+}
+
+
+@media (min-width: 425px){
+  .titulo-work h2{
+    font-size: 30px;  
+  }
+  .work-description span{
+    font-size: 15px
+  }
+}
+
+
+@media (min-width: 768px){
+  .titulo-work h2{
+    font-size: 50px;  
+  }
+  .work-description span{
+    font-size: 19px
+  }
+}
