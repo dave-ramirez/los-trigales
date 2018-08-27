@@ -44,7 +44,7 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera.png" alt=""></div>
+      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
@@ -60,7 +60,7 @@
               <li><a href="transporte.php">Transporte</a></li>
               <li><a href="constructora.php">Construcciones <br>Minería</a></li>
               <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <li><a href="representaciones.php">Representaciones</a></li>
+              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
           <li><a href="contacto.php">Contacto</a></li>

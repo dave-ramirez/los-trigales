@@ -142,8 +142,8 @@ section {
 }
 #mask {
   position: relative;
-  height: 58px;
-  width: 260px;
+  height: 150px;
+  width: 450px;
   margin: 0 auto;
 }
 #mask img{
@@ -1091,7 +1091,7 @@ section {
   margin-right: 15px;
 }
 .widget h6 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0px;
   margin: 0 0 10px 0;
@@ -1099,11 +1099,11 @@ section {
 }
 .widget p {
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
 }
 .widget a {
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
 }
 .widget p span {
   display: block;
@@ -1112,7 +1112,7 @@ section {
 .widget ul li a {
   display: block;
   padding: 0;
-  font-size: 13px;
+  font-size: 15px;
 }
 .nav-tabs {
   border-bottom: 0;
@@ -1140,4 +1140,66 @@ section {
   font-weight: 700;
   font-family: 'Fira Sans', sans-serif;
   text-transform: uppercase;
+}
+
+.titulo-work h2{
+  order: 1;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+
+.work-description span{
+  order: 2;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 24px;
+  max-width: 480px;
+  letter-spacing: .1em;
+  position: relative;
+}
+
+.work-details{
+  margin-top: 40px;
+}
+
+.detail-content{
+  width: 100%;
+}
+
+.detail-content h3{
+  margin: 0px 0px 10px 0px
+}
+
+.detail-text{
+  width: 75%;
+  margin-top: 20px;
+  display: inline-block
+}
+
+.date-content{
+  display: inline-block;
+  width: 15%;
+  vertical-align: top;
+}
+
+.date-content div{
+  margin: 20px 0px 30px 30px;
+}
+
+.date-content div h4{
+  text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    color: #363636;
+    display: block;
+    letter-spacing: .1em;
+}
+
+.date-content div h5{
+  color: #808285;
+  font-size: 15px;
+  font-style: italic;
+  letter-spacing: .1em;
 }

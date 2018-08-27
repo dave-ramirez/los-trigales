@@ -60,7 +60,7 @@
               <li><a href="transporte.php">Transporte</a></li>
               <li><a href="constructora.php">Construcciones <br>Minería</a></li>
               <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <li><a href="representaciones.php">Representaciones</a></li>
+              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
           <li><a href="contacto.php">Contacto</a></li>

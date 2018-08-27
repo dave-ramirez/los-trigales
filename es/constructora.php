@@ -53,7 +53,7 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera.png" alt=""></div>
+      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
@@ -177,7 +177,7 @@
                 <figcaption>
                   <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
-                  <a href="#">View more</a>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
@@ -185,7 +185,7 @@
                 <figcaption>
                   <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
-                  <a href="#">View more</a>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
@@ -193,7 +193,7 @@
                 <figcaption>
                   <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
-                  <a href="#">View more</a>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
@@ -201,7 +201,7 @@
                 <figcaption>
                   <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
-                  <a href="#">View more</a>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
@@ -209,7 +209,7 @@
                 <figcaption>
                   <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
-                  <a href="#">View more</a>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
@@ -217,7 +217,7 @@
                 <figcaption>
                   <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
-                  <a href="#">View more</a>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
             </div>
