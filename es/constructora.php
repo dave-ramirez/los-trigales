@@ -175,7 +175,7 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
                 <figcaption>
-                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
@@ -183,7 +183,7 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
                 <figcaption>
-                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
@@ -191,7 +191,7 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
                 <figcaption>
-                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
@@ -199,7 +199,7 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/15.jpg" alt="img15"/>
                 <figcaption>
-                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
@@ -207,7 +207,7 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/16.jpg" alt="img16"/>
                 <figcaption>
-                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
@@ -215,7 +215,7 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
                 <figcaption>
-                  <h2>Nombre del <span>Trabajo</span></h2>
+                  <h4>Nombre del <span>Trabajo</span></h4>
                   <p>Descripcion del trabajo realizado.</p>
                   <a href="#">View more</a>
                 </figcaption>			
