@@ -198,6 +198,7 @@ section {
 }
 #navigation{
   background-color: #008c6b;
+  text-align: center;
 }
 #topnav .navigation-menu > li > a {
   display: block;
@@ -247,6 +248,7 @@ section {
   padding: 0;
   text-align: center;
   font-size: 0;
+  display: inline-block;
 }
 #topnav .navigation-menu > li {
   display: inline-block;
@@ -1243,4 +1245,8 @@ section {
   .work-description span{
     font-size: 19px
   }
+}
+
+.translate{
+  display: inline-block;
 }
