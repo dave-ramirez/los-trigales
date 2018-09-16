@@ -112,7 +112,11 @@
                         <h5>Los Trigales</h5>
                     </div>
                     <div>
-                        <h4>Fecha</h4>
+                        <h4>Fecha Inicio</h4>
+                        <h5>April 20, 2017</h5>
+                    </div>
+                    <div>
+                        <h4>Fecha Finalizacion</h4>
                         <h5>April 20, 2017</h5>
                     </div>
                 </div>

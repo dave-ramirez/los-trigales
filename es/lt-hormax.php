@@ -36,6 +36,9 @@
     <link rel="stylesheet" href="../css/lostrigales.css">
     <link rel="stylesheet" href="../css/fancybox.min.css">
     <link rel="stylesheet" href="../css/responsive.css">
+        <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
+    <link rel="stylesheet" type="text/css" href="../css/set1.css" />
   </head>
   <body>
     <div id="loader">
@@ -46,38 +49,30 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
+      <div class="flag"><img src="../images/bandera.png" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
             <div class="lines"><span></span><span></span><span></span></div></a>
         </div>
       </div>
-      <div id="navigation" style="text-align: center;">
-        <ul class="navigation-menu" style="display: inline-block;">
-          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php"data-translate="resena">Reseña</a></li>
-          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
+      <div id="navigation">
+        <ul class="navigation-menu">
+          <li><a href=".">Inicio</a></li>
+          <li><a href="nosotros.php">Reseña</a></li>
+          <li class="has-submenu active"><a href="#">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea.hormax">LT Hormax</a></li>
+              <li><a href="transporte.php">Transporte</a></li>
+              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php">LT Hormax</a></li>
               <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
-
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
           <li><a href="noticias.php">Noticias</a></li>
           <!--<li class="lang-box"><a href="#">ES</a></li>
           <li class="lang-box"><a href="#">EN</a></li>-->
         </ul>
-          <!-- <div class="translate" style="display: inline-block;">
-            <select id="language">
-              <option value="es" data-content="<i class='flag-icon flag-icon-gr'></i>" selected>Español</option>
-              <option value="en" data-icon="glyphicon-star" >Ingles</option>
-              <option data-content="<i class='fa fa-heart' aria-hidden='true'></i>Option3"></option>
-            </select>
-          </div> -->
       </div>
     </header>
     <section class="page-title parallax">
@@ -95,7 +90,7 @@
           <h2>LT Hormax</h2>
         </div>
         <div class="about-container">
-          <p>Es la división de concretos del grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
+          <p>Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
           <p>Produce una amplia gama de productos e innovaciones desde hormigones estándar h100 hasta h 500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (rdc), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 30 camiones mixer y 8 bombas de hormigón.</p>
           <p>Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.</p>
           <p>Conozca más de LT HORMAX en <a href="http://www.lthormax.com.py/">www.lthormax.com.py</a></p>
@@ -134,7 +129,67 @@
         </div> 
       </div>
     </section>
-    <section id="gallery">
+    <section id="trabajos">
+      <div class="container hover-container">
+        <div class="title center">
+          <h2>Nuestros trabajos</h2>
+        </div>
+        <div>
+          <div class="content">
+            <div class="grid">
+              <figure class="effect-milo">
+                <img src="../images/obras/lt-hormax/3.jpg" alt="img12"/>
+                <figcaption>
+                  <h4>Nombre del <span>Trabajo</span></h4>
+                  <p>Descripcion del trabajo realizado.</p>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/lt-hormax/1.jpg" alt="img13"/>
+                <figcaption>
+                  <h4>Nombre del <span>Trabajo</span></h4>
+                  <p>Descripcion del trabajo realizado.</p>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/lt-hormax/1.jpg" alt="img14"/>
+                <figcaption>
+                  <h4>Nombre del <span>Trabajo</span></h4>
+                  <p>Descripcion del trabajo realizado.</p>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/lt-hormax/1.jpg" alt="img15"/>
+                <figcaption>
+                  <h4>Nombre del <span>Trabajo</span></h4>
+                  <p>Descripcion del trabajo realizado.</p>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/lt-hormax/1.jpg" alt="img16"/>
+                <figcaption>
+                  <h4>Nombre del <span>Trabajo</span></h4>
+                  <p>Descripcion del trabajo realizado.</p>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/lt-hormax/1.jpg" alt="img17"/>
+                <figcaption>
+                  <h4>Nombre del <span>Trabajo</span></h4>
+                  <p>Descripcion del trabajo realizado.</p>
+                  <a href="../es/obras/prueba.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+            </div>
+          </div>
+        </div><!-- /container -->
+    </section>
+    <!-- <section id="gallery">
       <div class="container">
         <div class="title center">
           <h2>Galería de imágenes<span class="dot"></span></h2>
@@ -165,7 +220,7 @@
           </ul>
         </div>
       </div>
-    </section>
+    </section> -->
     <section id="clients" class="bb-0">
       <div class="container-big">
         <div class="title center">

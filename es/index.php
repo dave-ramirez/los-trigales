@@ -34,11 +34,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/lostrigales.css">
     <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../js/translate.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
+    <link rel="stylesheet" type="text/css" href="../css/set1.css" />
   </head>
   <body>
     <div id="loader">
@@ -49,38 +47,30 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
+      <div class="flag"><img src="../images/bandera.png" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
             <div class="lines"><span></span><span></span><span></span></div></a>
         </div>
       </div>
-      <div id="navigation" style="text-align: center;">
-        <ul class="navigation-menu" style="display: inline-block;">
-          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php"data-translate="resena">Reseña</a></li>
-          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
+      <div id="navigation">
+        <ul class="navigation-menu">
+          <li class="active"><a href=".">Inicio</a></li>
+          <li><a href="nosotros.php">Reseña</a></li>
+          <li class="has-submenu"><a href="#">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea.hormax">LT Hormax</a></li>
+              <li><a href="transporte.php">Transporte</a></li>
+              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php">LT Hormax</a></li>
               <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
-
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
           <li><a href="noticias.php">Noticias</a></li>
           <!--<li class="lang-box"><a href="#">ES</a></li>
           <li class="lang-box"><a href="#">EN</a></li>-->
         </ul>
-          <!-- <div class="translate" style="display: inline-block;">
-            <select id="language">
-              <option value="es" data-content="<i class='flag-icon flag-icon-gr'></i>" selected>Español</option>
-              <option value="en" data-icon="glyphicon-star" >Ingles</option>
-              <option data-content="<i class='fa fa-heart' aria-hidden='true'></i>Option3"></option>
-            </select>
-          </div> -->
       </div>
     </header>
     <section id="home">
@@ -108,7 +98,7 @@
             </div>
           </li>
           <li>
-          <img src="../images/slider/4.jpg" alt="">
+          <img src="../images/noticias/mepso.jpg" alt="">
             <div class="slide-wrap">
               <div class="slide-content">
               </div>
@@ -117,22 +107,22 @@
         </ul>
         <div class="Marquee">
           <div class="Marquee-content">
-            <div class="Marquee-tag" data-translate="marque-1">Valoramos su confianza...</div>
-            <div class="Marquee-tag" data-translate="marque-2">Dinamismo e innovación...</div>
-            <div class="Marquee-tag" data-translate="marque-3">Soluciones integrales...</div>
-            <div class="Marquee-tag" data-translate="marque-4">Somos una opción diferente...</div>
-            <div class="Marquee-tag" data-translate="marque-5">Valoramos su confianza...</div>
-            <div class="Marquee-tag" data-translate="marque-6">Dinamismo e innovación...</div>
-            <div class="Marquee-tag" data-translate="marque-7">Soluciones integrales...</div>
-            <div class="Marquee-tag" data-translate="marque-8">Somos una opción diferente...</div>
-            <div class="Marquee-tag" data-translate="marque-9">Valoramos su confianza...</div>
-            <div class="Marquee-tag" data-translate="marque-10">Dinamismo e innovación...</div>
-            <div class="Marquee-tag" data-translate="marque-11">Soluciones integrales...</div>
-            <div class="Marquee-tag" data-translate="marque-12">Somos una opción diferente...</div>
-            <div class="Marquee-tag" data-translate="marque-13">Valoramos su confianza...</div>
-            <div class="Marquee-tag" data-translate="marque-14">Dinamismo e innovación...</div>
-            <div class="Marquee-tag" data-translate="marque-15">Soluciones integrales...</div>
-            <div class="Marquee-tag" data-translate="marque-16">Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >VALORAMOS su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Valoramos su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Valoramos su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Valoramos su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
           </div>
         </div>
       </div>
@@ -142,21 +132,27 @@
         <div class="features-box">
           <a href="transporte.php">
             <div class="features-img"><img src="../images/logos/los-trigales.png" alt=""></div>
-            <div class="features-title bg-blue"><h3 data-translate="sublinea-transporte">Transporte</h3></div>
+            <div class="features-title bg-blue"><h3>Transporte</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="constructora.php">
             <div class="features-img"><img src="../images/logos/lt-vial.png" alt=""></div>
-            <div class="features-title bg-green"><h3 data-translate="sublinea-construccion">Construcciones <br>Minería</h3></div>
+            <div class="features-title bg-green"><h3>Construcciones <br>Minería</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="lt-hormax.php">
             <div class="features-img"><img src="../images/logos/lt-hormax.png" alt=""></div>
-            <div class="features-title bg-blue"><h3 data-translate="sublinea.hormax">Hormigón elaborado</h3></div>
+            <div class="features-title bg-blue"><h3>Hormigón elaborado</h3></div>
           </a>
         </div>
+<!--         <div class="features-box">
+          <a href="representaciones.php">
+            <div class="features-img"><img src="../images/logos/melon.png" alt=""></div>
+            <div class="features-title bg-green"><h3>Representaciones</h3></div>
+          </a>
+        </div> -->
       </div>
     </section>
     <footer id="footer-widgets">
@@ -164,7 +160,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper" data-translate="contacto">Contacto</h6>
+              <h6 class="upper">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -174,12 +170,12 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper" data-translate="web">Sitio web</h6>
+              <h6 class="upper">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href="." data-translate="inicio">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href=".">Inicio</a></li>
+                <li><a href="nosotros.php">Nosotros</a></li>
+                <li><a href="lineas-de-negocios.php">Líneas de negocio</a></li>
+                <li><a href="contacto.php">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -188,7 +184,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p data-translate="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

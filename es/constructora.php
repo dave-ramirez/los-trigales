@@ -28,8 +28,6 @@
     <meta property="og:locale:alternate" content="en" />
 
     <link rel="alternate" hreflang="es" href="https://lostrigales.com.py/es" type="text/html" />
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
-
     <meta property="og:locale:alternate" content="es" />
 
     <link rel="stylesheet" href="../css/bundle.css">
@@ -38,9 +36,7 @@
     <link rel="stylesheet" href="../css/lostrigales.css">
     <link rel="stylesheet" href="../css/fancybox.min.css">
     <link rel="stylesheet" href="../css/responsive.css">
-
-    <!-- Hover effects -->
-    <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="../css/set1.css" />
   </head>
@@ -53,38 +49,30 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
+      <div class="flag"><img src="../images/bandera.png" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
             <div class="lines"><span></span><span></span><span></span></div></a>
         </div>
       </div>
-      <div id="navigation" style="text-align: center;">
-        <ul class="navigation-menu" style="display: inline-block;">
-          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php"data-translate="resena">Reseña</a></li>
-          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
+      <div id="navigation">
+        <ul class="navigation-menu">
+          <li><a href=".">Inicio</a></li>
+          <li><a href="nosotros.php">Reseña</a></li>
+          <li class="has-submenu active"><a href="#">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea.hormax">LT Hormax</a></li>
+              <li><a href="transporte.php">Transporte</a></li>
+              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php">LT Hormax</a></li>
               <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
-
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="contacto.php">Contacto</a></li>
           <li><a href="noticias.php">Noticias</a></li>
           <!--<li class="lang-box"><a href="#">ES</a></li>
           <li class="lang-box"><a href="#">EN</a></li>-->
         </ul>
-          <!-- <div class="translate" style="display: inline-block;">
-            <select id="language">
-              <option value="es" data-content="<i class='flag-icon flag-icon-gr'></i>" selected>Español</option>
-              <option value="en" data-icon="glyphicon-star" >Ingles</option>
-              <option data-content="<i class='fa fa-heart' aria-hidden='true'></i>Option3"></option>
-            </select>
-          </div> -->
       </div>
     </header>
     <section class="page-title parallax">
@@ -99,7 +87,7 @@
     <section>
       <div class="container">
         <div class="title">
-          <h2>LT Vial</h2>
+          <h2>LT VIAL - CONTRUCCIONES – MINERIA</h2>
         </div>
         <div class="about-container">
           <p>Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 150 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.</p>
@@ -364,11 +352,5 @@
             ]
           });
     </script>
-    		<script>
-			// For Demo purposes only (show hover effect on mobile devices)
-			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
-				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
-			} );
-		</script>
   </body>
 </html>

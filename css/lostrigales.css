@@ -1207,12 +1207,12 @@ section {
 }
 
 @media (max-width: 568px) {
-	.date-content{
-	  display: none;
-	}
-	.detail-text{
-	  width: 100%;
-	}
+  .date-content{
+    display: none;
+  }
+  .detail-text{
+    width: 100%;
+  }
 }
 
 @media (min-width: 320px){
