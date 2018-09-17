@@ -47,7 +47,7 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera.png" alt=""></div>
+      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">

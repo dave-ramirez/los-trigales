@@ -72,7 +72,8 @@ a:focus {
   text-decoration: none;
 }
 p {
-  color: #8D96A4;
+  color: #000000;
+  font-size: 18px;
 }
 strong{
   font-weight: 700;
@@ -880,8 +881,8 @@ section {
   color: #008c6b;
 }
 .info-text p{
-  color: #898989;
-  font-size: 11px;
+  color: #898992;
+  font-size: 13px;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 15px;
@@ -979,8 +980,8 @@ section {
 .about-container li{
   margin-bottom: 5px;
   list-style: none;
-  color: #898989;
-  font-size: 15px;
+  color: #000000;
+  font-size: 17px;
   text-align: left;
   list-style: circle;
 }

@@ -49,7 +49,7 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera.png" alt=""></div>
+      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
@@ -90,17 +90,17 @@
           <h2>LT VIAL - CONTRUCCIONES – MINERIA</h2>
         </div>
         <div class="about-container">
-          <p>Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 150 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.</p>
+          <p>Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
             <ul class="slides">
-              <li><img src="../images/lostrigales/constructora-1.jpg" alt=""></li>
+              <li><img src="../images/lostrigales/trituradora-mepso.jpg" alt=""></li>
               <li><img src="../images/lostrigales/constructora-2.jpg" alt=""></li>
               <li><img src="../images/lostrigales/constructora-3.jpg" alt=""></li>
-              <li><img src="../images/lostrigales/constructora-4.jpg" alt=""></li>
+              <li><img src="../images/lostrigales/pilcomayo.jpg" alt=""></li>
               <li><img src="../images/lostrigales/constructora-5.jpg" alt=""></li>
-              <li><img src="../images/lostrigales/constructora-6.jpg" alt=""></li>
+              <li><img src="../images/lostrigales/ñu-guazu_autopista.png" alt=""></li>
             </ul>
           </div>
         </div>

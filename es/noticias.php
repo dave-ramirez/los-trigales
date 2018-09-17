@@ -53,7 +53,7 @@
       </div>
     </div>
     <header id="topnav">
-      <div class="flag"><img src="../images/bandera.png" alt=""></div>
+      <div class="flag"><img src="../images/bandera-1.jpeg" alt=""></div>
       <div class="logo"><a href="."><img src="../images/logo-1.png" alt="" class="logo-light"></a></div>
       <div class="menu-extras">
         <div class="menu-item"><a class="navbar-toggle">
@@ -97,19 +97,27 @@
           <div class="content">
             <div class="grid">
               <figure class="effect-milo">
-                <img src="../images/noticias/pilcomayo.png" alt="Pilcomayo obra"/>
+                <img src="../images/lostrigales/pilcomayo.jpg" alt="Pilcomayo obra"/>
                 <figcaption>
                   <h4>Consorcio <span>Pilcomayo</span></h4>
                   <p>Trabajo realizado en el chaco paraguayo.</p>
-                  <a href="https://www.facebook.com/grupolostrigales/videos/461298691042174/" target="_blank">Ver mas</a>
+                  <a href="obras/pilcomayo.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="../images/noticias/mepso.jpg" alt="Mepso"/>
+                <img src="../images/lostrigales/lt-hormax-2.jpg" alt="Mepso"/>
                 <figcaption>
-                  <h4>Los Trigales <span>Mepso</span></h4>
-                  <p>Los Trigales agrega 80,000 toneladas a su producción agregada mensual</p>
-                  <a href="https://www.metso.com/showroom/construction/los-trigales/" target="_blank">Ver mas</a>
+                  <h4>LT -  <span>HORMAX</span></h4>
+                  <p>LT HORMAX – Cementerio futuro</p>
+                  <a href="obras/lt-hormax.php" target="_blank">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/lostrigales/santisima-trinidad.jpg" alt="img14"/>
+                <figcaption>
+                  <h4>Santisima <span>Trinidad</span></h4>
+                  <p>Proyecto super viaducto ñu guasu.</p>
+                  <a href="obras/trinidad.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
