@@ -121,6 +121,22 @@
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
+                <img src="../images/lostrigales/paraguay-es.png" alt="img14"/>
+                <figcaption>
+                  <h4>Discovering <span>Paraguay</span></h4>
+                  <p>Breve resumen de nuestro pais.</p>
+                  <a href="obras/paraguay-es.php" target="_blank">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/lostrigales/paraguay-en.png" alt="img14"/>
+                <figcaption>
+                  <h4>Descubriendo <span>Paraguay</span></h4>
+                  <p>Breve resumen de nuestro pais.</p>
+                  <a href="obras/paraguay-en.php" target="_blank">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
                 <img src="../images/noticias/inclusion.PNG" alt="img14"/>
                 <figcaption>
                   <h4>2ª Etapa del proyecto de incorporacion <span>Femenina</span></h4>

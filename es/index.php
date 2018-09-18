@@ -137,7 +137,7 @@
         </div>
         <div class="features-box">
           <a href="constructora.php">
-            <div class="features-img"><img src="../images/logos/lt-vial.png" alt=""></div>
+            <div class="features-img"><img src="../images/logos/los_trigales.png" alt="" style="height: 170px;"></div>
             <div class="features-title bg-green"><h3>Construcciones <br>Minería</h3></div>
           </a>
         </div>

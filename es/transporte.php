@@ -112,6 +112,10 @@
         </div>
         <div class="gallery-container">
           <ul class="info-grid">
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo-1.jpeg);" ><a href="../images/obras/transporte/nuevo-1.jpeg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo-2.jpeg);" ><a href="../images/obras/transporte/nuevo-2.jpeg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo-3.jpeg);" ><a href="../images/obras/transporte/nuevo-3.jpeg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo-4.jpeg);" ><a href="../images/obras/transporte/nuevo-4.jpeg" data-fancybox="gallery-img"></a></div></li>
             <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/1.jpg);" ><a href="../images/obras/transporte/1.jpg" data-fancybox="gallery-img"></a></div></li>
             <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/2.jpg);"><a href="../images/obras/transporte/2.jpg" data-fancybox="gallery-img"></a></div></li>
             <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/3.jpg);"><a href="../images/obras/transporte/3.jpg" data-fancybox="gallery-img"></a></div></li>
