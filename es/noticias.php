@@ -137,6 +137,22 @@
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
+                <img src="../images/lostrigales/guarani.png" alt="img14"/>
+                <figcaption>
+                  <h4><span>Guaraní</span></h4>
+                  <p>Guaraní, lengua del Paraguay.</p>
+                  <a href="https://www.facebook.com/grupolostrigales/posts/2058028447604657?__tn__=-R" target="_blank">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/lostrigales/obras-cartes.png" alt="img14"/>
+                <figcaption>
+                  <h4>Obras de <span>infraestructura</span></h4>
+                  <p>Fuimos #UnaOpciónDiferente en estas obras.</p>
+                  <a href="https://www.facebook.com/grupolostrigales/posts/1991272557613580?__tn__=-R" target="_blank">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
                 <img src="../images/noticias/inclusion.PNG" alt="img14"/>
                 <figcaption>
                   <h4>2ª Etapa del proyecto de incorporacion <span>Femenina</span></h4>
