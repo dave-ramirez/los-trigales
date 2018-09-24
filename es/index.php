@@ -37,6 +37,13 @@
     <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="../css/set1.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <style>
+      .select2-container{
+        width: 70px! important;
+      }
+    </style>
+
   </head>
   <body>
     <div id="loader">
@@ -56,7 +63,7 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li class="active"><a href=".">Inicio</a></li>
+          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
           <li><a href="nosotros.php">Reseña</a></li>
           <li class="has-submenu"><a href="#">Líneas de negocios</a>
             <ul class="submenu">
@@ -68,6 +75,21 @@
           </li>
           <li><a href="contacto.php">Contacto</a></li>
           <li><a href="noticias.php">Noticias</a></li>
+          <select class="js-example-basic-single" name="state" id="language">
+            <option value="es" selected="selected" >ES</option>
+            <option value="en">EN</option>
+          </select>
+          <select>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+          </select>
+          <select class="js-example-basic-single">
+            <option value="one">First</option>
+            <option value="two" disabled="disabled">Second (disabled)</option>
+            <option value="three">Third</option>
+          </select>
           <!--<li class="lang-box"><a href="#">ES</a></li>
           <li class="lang-box"><a href="#">EN</a></li>-->
         </ul>
@@ -191,6 +213,8 @@
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/bundle.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="../js/translate.js"></script>
     <script type="text/javascript">
       function getElements(className) {
         return document.getElementsByClassName(className);
@@ -199,6 +223,10 @@
       const container = getElements('Marquee');
       const contentWidth = content[0].offsetWidth;
       const containerWidth = container[0].offsetWidth;
+      $(document).ready(function(){
+        $('#language').val(['es','en']);
+        $('#language').trigger('change');
+      });
     </script>
   </body>
 </html>
