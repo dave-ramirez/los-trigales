@@ -38,6 +38,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="../css/set1.css" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet"/>
     <style>
       .select2-container{
         width: 70px! important;
@@ -70,31 +71,24 @@
               <li><a href="transporte.php">Transporte</a></li>
               <li><a href="constructora.php">Construcciones <br>Minería</a></li>
               <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
             </ul>
           </li>
           <li><a href="contacto.php">Contacto</a></li>
           <li><a href="noticias.php">Noticias</a></li>
-          <select class="js-example-basic-single" name="state" id="language">
-            <option value="es" selected="selected" >ES</option>
-            <option value="en">EN</option>
-          </select>
-          <select>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-              <option value="4">Four</option>
-          </select>
-          <select class="js-example-basic-single">
-            <option value="one">First</option>
-            <option value="two" disabled="disabled">Second (disabled)</option>
-            <option value="three">Third</option>
-          </select>
-          <!--<li class="lang-box"><a href="#">ES</a></li>
-          <li class="lang-box"><a href="#">EN</a></li>-->
+          <li class="has-submenu lang-style">
+              <select class="selectpicker" data-width="fit">
+                <option data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
+                <option  data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
+              </select>  
+          </li>
         </ul>
       </div>
+      <div>
+
+      </div>
     </header>
+    <div>
+    </div>
     <section id="home">
       <div id="home-slider" class="flexslider kenburn">
         <ul class="slides">
@@ -169,12 +163,6 @@
             <div class="features-title bg-blue"><h3>Hormigón elaborado</h3></div>
           </a>
         </div>
-<!--         <div class="features-box">
-          <a href="representaciones.php">
-            <div class="features-img"><img src="../images/logos/melon.png" alt=""></div>
-            <div class="features-title bg-green"><h3>Representaciones</h3></div>
-          </a>
-        </div> -->
       </div>
     </section>
     <footer id="footer-widgets">
@@ -214,6 +202,7 @@
     <script type="text/javascript" src="../js/bundle.js"></script>
     <script type="text/javascript" src="../js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
     <script src="../js/translate.js"></script>
     <script type="text/javascript">
       function getElements(className) {
@@ -223,10 +212,15 @@
       const container = getElements('Marquee');
       const contentWidth = content[0].offsetWidth;
       const containerWidth = container[0].offsetWidth;
-      $(document).ready(function(){
-        $('#language').val(['es','en']);
-        $('#language').trigger('change');
-      });
+
+      $('#select').select2();
+      $('.selectpicker').selectpicker();
+
+      var $disabledResults = $(".js-example-disabled-results");
+        $disabledResults.select2();
+        $(function(){
+            $('.selectpicker').selectpicker();
+        });
     </script>
   </body>
 </html>

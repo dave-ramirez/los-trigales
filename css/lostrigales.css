@@ -1251,3 +1251,37 @@ section {
 .translate{
   display: inline-block;
 }
+
+.glyphicon{
+  display: none
+}
+
+.btn-default{
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.btn-default:hover{
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.btn-default:active{
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.btn-default:focus{
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+  background: transparent;
+  border: none;
+  color: #fff;
+}

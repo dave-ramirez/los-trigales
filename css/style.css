@@ -4000,3 +4000,18 @@ section.dark .nav-tabs.outline > li.active > a:hover {
     transform: scale(1);
   }
 }
+
+.select-lang{
+  display:inline-block;
+}
+
+.open>.dropdown-menu{
+  overflow: inherit! important;
+  margin-top: -10px;
+  cursor: pointer;
+}
+
+.lang-style{
+  vertical-align: top;
+  margin-top: 2px;
+}
