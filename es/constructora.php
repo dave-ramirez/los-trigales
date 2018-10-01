@@ -39,6 +39,8 @@
         <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="../css/set1.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet"/>
   </head>
   <body>
     <div id="loader">
@@ -58,20 +60,23 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href=".">Inicio</a></li>
-          <li><a href="nosotros.php">Reseña</a></li>
-          <li class="has-submenu active"><a href="#">Líneas de negocios</a>
+          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
+          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php">Transporte</a></li>
-              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
+              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
             </ul>
           </li>
-          <li><a href="contacto.php">Contacto</a></li>
-          <li><a href="noticias.php">Noticias</a></li>
-          <!--<li class="lang-box"><a href="#">ES</a></li>
-          <li class="lang-box"><a href="#">EN</a></li>-->
+          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php" data-translate="nosotros">Noticias</a></li>
+          <li class="has-submenu lang-style">
+              <select class="selectpicker" id="language" data-width="fit">
+                <option  value="es" selected data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
+                <option value="en" data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
+              </select>  
+          </li>
         </ul>
       </div>
     </header>
@@ -87,10 +92,10 @@
     <section>
       <div class="container">
         <div class="title">
-          <h2>LT VIAL - CONTRUCCIONES – MINERIA</h2>
+          <h2 data-translate="titulo-1">LT VIAL - CONTRUCCIONES – MINERIA</h2>
         </div>
         <div class="about-container">
-          <p>Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.</p>
+          <p data-translate="texto-1">Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -109,29 +114,29 @@
     <section class="bg-grey">
       <div class="container">
         <div class="title center">
-          <h2>Nuestros servicios y productos</h2>
+          <h2 data-translate="">Nuestros servicios y productos</h2>
         </div>
         <div class="info-container">
           <ul class="construction-grid">
             <li>
-              <div class="info-title">Construcción vial</div>
+              <div class="info-title" data-translate="construccion-vial">Construcción vial</div>
               <div class="info-text">
-                <p>Terraplenes y enripiados</p>
-                <p>Pavimentos asfálticos</p>
-                <p>Alcantarillas y puentes</p>
-                <p>Pavimentos de hormigón</p>
+                <p data-translate="">Terraplenes y enripiados</p>
+                <p data-translate="">Pavimentos asfálticos</p>
+                <p data-translate="">Alcantarillas y puentes</p>
+                <p data-translate="">Pavimentos de hormigón</p>
               </div>
             </li>
             <li>
-              <div class="info-title">Construcción civil</div>
+              <div class="info-title" data-translate="construccion-civil">Construcción civil</div>
               <div class="info-text">
-                <p>Parques industriales</p>
-                <p>Estaciones de servicio</p>
-                <p>Viviendas y edificios</p>
+                <p data-translate="">Parques industriales</p>
+                <p data-translate="">Estaciones de servicio</p>
+                <p data-translate="">Viviendas y edificios</p>
               </div>
             </li>
             <li>
-              <div class="info-title">Canteras</div>
+              <div class="info-title" data-translate="canteras">Canteras</div>
               <div class="info-text">
                 <p>Limpio - Ripio y Cantos Rodados</p>
                 <p>Benjamin Aceval – Basalto</p>
@@ -141,7 +146,7 @@
               </div>
             </li>
             <li class="info-4">
-              <div class="info-title">Plantas trituradoras</div>
+              <div class="info-title" data-translate="plantas">Plantas trituradoras</div>
               <div class="info-text">
                 <p>Planta de trituración y clasificación móvil</p>
                 <p>Piedra triturada 4ta, 5ta y 6ta</p>
@@ -150,7 +155,7 @@
               </div>
             </li>
             <li class="info-5">
-              <div class="info-title">Planta asfáltica</div>
+              <div class="info-title" data-translate="planta-asfaltica">Planta asfáltica</div>
               <div class="info-text">
                 <p>Planta de elaboración de concreto asfaltico en caliente</p>
                 <p>Capacidad 140 Tn/hora</p>
@@ -164,7 +169,7 @@
     <section id="trabajos">
       <div class="container hover-container">
         <div class="title center">
-          <h2>Nuestros trabajos</h2>
+          <h2 data-translate="nuestros-trabajos">Nuestros trabajos</h2>
         </div>
         <div>
           <div class="content">
@@ -221,48 +226,10 @@
           </div>
         </div><!-- /container -->
     </section>
-    <!-- <section id="gallery">
-      <div class="container">
-        <div class="title center">
-          <h2>Galería de imágenes</h2>
-        </div>
-        <div class="gallery-container">
-          <ul class="info-grid">
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/22.jpg);" ><a href="../images/obras/constructora/22.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/23.jpg);"><a href="../images/obras/constructora/23.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/24.jpg);"><a href="../images/obras/constructora/24.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/25.jpg);"><a href="../images/obras/constructora/25.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/26.jpg);"><a href="../images/obras/constructora/26.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/27.jpg);"><a href="../images/obras/constructora/27.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/1.jpg);" ><a href="../images/obras/constructora/1.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/2.jpg);"><a href="../images/obras/constructora/2.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/3.jpg);"><a href="../images/obras/constructora/3.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/4.jpg);"><a href="../images/obras/constructora/4.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/5.jpg);"><a href="../images/obras/constructora/5.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/6.jpg);"><a href="../images/obras/constructora/6.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/7.jpg);"><a href="../images/obras/constructora/7.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/8.jpg);"><a href="../images/obras/constructora/8.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/9.jpg);"><a href="../images/obras/constructora/9.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/10.jpg);"><a href="../images/obras/constructora/10.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/11.jpg);"><a href="../images/obras/constructora/11.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/12.jpg);"><a href="../images/obras/constructora/12.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/13.jpg);"><a href="../images/obras/constructora/13.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/14.jpg);"><a href="../images/obras/constructora/14.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/15.jpg);"><a href="../images/obras/constructora/15.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/16.jpg);"><a href="../images/obras/constructora/16.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/17.jpg);"><a href="../images/obras/constructora/17.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/18.jpg);"><a href="../images/obras/constructora/18.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/19.jpg);"><a href="../images/obras/constructora/19.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/20.jpg);"><a href="../images/obras/constructora/20.jpg" data-fancybox="gallery-img"></a></div></li>
-            <li><div class="gallery-img" style="background-image: url(../images/obras/constructora/21.jpg);"><a href="../images/obras/constructora/21.jpg" data-fancybox="gallery-img"></a></div></li>
-          </ul>
-        </div>
-      </div>
-    </section> -->
     <section id="clients" class="bb-0 bg-grey">
       <div class="container-big">
         <div class="title center">
-          <h2>Nuestros clientes</h2>
+          <h2 data-translate="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
           <li><img src="../images/clients/lt-vial/4.png" alt=""></li>
@@ -281,7 +248,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper">Contacto</h6>
+              <h6 class="upper" data-translate="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -291,21 +258,21 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper">Sitio web</h6>
+              <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
                 <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="lineas-de-negocios.php">Líneas de negocio</a></li>
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </footer>
     <footer id="footer">
       <div class="container">
-        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p data-translate="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">
@@ -314,6 +281,9 @@
     <script type="text/javascript" src="../js/main.js"></script>    
     <script type="text/javascript" src="../js/slick.js"></script>
     <script type="text/javascript" src="../js/fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    <script src="../js/translate.js"></script>
     <script type="text/javascript">
       $('.center-slick').slick({
             centerMode: true,
@@ -351,6 +321,16 @@
               }
             ]
           });
+
+                $('#select').select2();
+      $('.selectpicker').selectpicker();
+
+
+                var $disabledResults = $(".js-example-disabled-results");
+        $disabledResults.select2();
+        $(function(){
+            $('.selectpicker').selectpicker();
+        });
     </script>
   </body>
 </html>

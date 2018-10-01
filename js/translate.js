@@ -32,8 +32,44 @@ $(document).ready(function() {
 
                 // footer
                 "web": "Sitio web",
-                "copyrigth": "© 2017 LOS TRIGALES. Todos los derechos reservados."
+                "copyrigth": "© 2017 LOS TRIGALES. Todos los derechos reservados.",
 
+                // Constructora
+                "titulo-1": "LT VIAL - CONTRUCCIONES – MINERIA",
+                "texto-1": "Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.",
+                "nuestros-servicios": "NUESTROS SERVICIOS Y PRODUCTOS",
+                "construccion-vial": "Construcción vial",
+                    // "texto-vial-1": "TERRAPLENES Y ENRIPIADOS",
+                    // "texto-vial-2": "PAVIMENTOS ASFÁLTICOS",
+                    // "texto-vial-3": "ALCANTARILLAS Y PUENTES",
+                    // "texto-vial-4": "PAVIMENTOS DE HORMIGÓN",
+                "construccion-civil": "Construcción civil",
+                    // "texto-civil-1": "PARQUES INDUSTRIALES",
+                    // "texto-civil-2": "ESTACIONES DE SERVICIO",
+                    // "texto-civil-3": "VIVIENDAS Y EDIFICIOS",
+                "canteras": "Canteras",
+                    // "texto-canteras-1": "LIMPIO - RIPIO Y CANTOS RODADOS",
+                    // "texto-canteras-2": "BENJAMIN ACEVAL – BASALTO",
+                    // "texto-canteras-3": "PIRAYU – BASALTO",
+                    // "texto-canteras-4": "ESCOBAR – BASALTO",
+                    // "texto-canteras-4": "EMBOSCADA – ARENISCA",
+                "plantas": "Plantas trituradoras",
+                    // "texto-plantas-1": "PLANTA DE TRITURACIÓN Y CLASIFICACIÓN MÓVIL",
+                    // "texto-plantas-2": "PIEDRA TRITURADA 4TA, 5TA Y 6TA",
+                    // "texto-plantas-3": "SERVICIO DE TRITURACIÓN IN SITU",
+                    // "texto-plantas-4": "PERFORACIONES EN ROCA Y VOLADURAS",
+                "planta-asfaltica": "Planta asfáltica",
+                    // "texto-asfaltica-1": "PLANTA DE ELABORACIÓN DE CONCRETO ASFALTICO EN CALIENTE",
+                    // "texto-asfaltica-2": "CAPACIDAD 140 TN/HORA",
+                    // "texto-asfaltica-3": "PRODUCCIÓN MEDIA POR MES 20.000 TN",
+                "nuestros-trabajos": "NUESTROS TRABAJOS",
+                "clientes": "NUESTROS CLIENTES"
+                    
+                    
+                    
+                    
+                       
+                    
             },
             "en": {
                 "inicio": "Home",
@@ -67,7 +103,40 @@ $(document).ready(function() {
                 // footer
 
                 "web": "Web site",
-                "copyrigth": "© 2017 LOS TRIGALES. All rights reserved."
+                "copyrigth": "© 2017 LOS TRIGALES. All rights reserved.",
+
+                // Constructora
+                "titulo-1": "LT VIAL - BUILDINGS - MINING",
+                "texto-1": "It is the construction division, born as a need of the country to have reliable actors to expand its infrastructure and road network. It possesses a technical team of great trajectory that added to a fleet of 200 machines and diverse equipment is to execute any type of project of magnitude.",
+                "nuestros-servicios": "OUR SERVICES AND PRODUCTS",         
+                "construccion-vial": "Road construction",
+                    // "texto-vial-1": "TERRAPLENES Y ENRIPIADOS",
+                    // "texto-vial-2": "PAVIMENTOS ASFÁLTICOS",
+                    // "texto-vial-3": "ALCANTARILLAS Y PUENTES",
+                    // "texto-vial-4": "PAVIMENTOS DE HORMIGÓN",
+                "construccion-civil": "Civil construction",
+                    // "texto-civil-1": "PARQUES INDUSTRIALES",
+                    // "texto-civil-2": "ESTACIONES DE SERVICIO",
+                    // "texto-civil-3": "VIVIENDAS Y EDIFICIOS",
+                "canteras": "Quarries",
+                    // "texto-canteras-1": "LIMPIO - RIPIO Y CANTOS RODADOS",
+                    // "texto-canteras-2": "BENJAMIN ACEVAL – BASALTO",
+                    // "texto-canteras-3": "PIRAYU – BASALTO",
+                    // "texto-canteras-4": "ESCOBAR – BASALTO",
+                    // "texto-canteras-4": "EMBOSCADA – ARENISCA",
+                "plantas": "Crushing plants",
+                    // "texto-plantas-1": "PLANTA DE TRITURACIÓN Y CLASIFICACIÓN MÓVIL",
+                    // "texto-plantas-2": "PIEDRA TRITURADA 4TA, 5TA Y 6TA",
+                    // "texto-plantas-3": "SERVICIO DE TRITURACIÓN IN SITU",
+                    // "texto-plantas-4": "PERFORACIONES EN ROCA Y VOLADURAS",
+                "planta-asfaltica": "Asphalt plant",
+                    // "texto-asfaltica-1": "PLANTA DE ELABORACIÓN DE CONCRETO ASFALTICO EN CALIENTE",
+                    // "texto-asfaltica-2": "CAPACIDAD 140 TN/HORA",
+                    // "texto-asfaltica-3": "PRODUCCIÓN MEDIA POR MES 20.000 TN",
+                "nuestros-trabajos": "OUR JOBS",
+                "clientes": "OUR CLIENTS"
+                
+
             }
         };
         
