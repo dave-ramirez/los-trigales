@@ -43,6 +43,8 @@
     <!-- <link rel="stylesheet" type="text/css" href="../../css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../../css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="../../css/set1.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet"/>
   </head>
   <body>
     <div id="loader">
@@ -81,7 +83,7 @@
     <section id="gallery">
       <div class="container">
         <div class="gallery-container">
-          <div style="height: 600px; margin-top: 40px;">
+          <div style="height: 600px; margin-top: 40px;" data-translate="video">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0q5z76uc8Ko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
           <div class="work-details">

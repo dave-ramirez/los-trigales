@@ -9,7 +9,7 @@ $(document).ready(function() {
                     "sublinea-construccion": "Construccion y Mineria",
                     "sublinea-hormax": "LT Hormax",
                 "contacto": "Contacto",
-                "nosotros": "Nosotros",
+                "noticias": "Noticias",
                 "hormigon": "Hormigón elaborado",
 
                 // Marquee-content
@@ -88,7 +88,13 @@ $(document).ready(function() {
                         "politica-text-7": "Integrar la prevención de riesgos laborales en todas las actividades y decisiones, tanto en los procesos técnicos, en la organización del trabajo y en las condiciones que éste se presente, como en la línea jerárquica de las empresas, incluidos todos los niveles de la misma.",
                         "politica-text-8": "Anteponer las protecciones colectivas a las individuales.",
                         "politica-text-9": "Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctoras.",
-                        "politica-text-10": "Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.",          
+                        "politica-text-10": "Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.", 
+                
+                // Noticias
+                "paraguay-video-text": "Descubriendo Paraguay",
+                "paraguay-video-resumen": "Breve resumen de nuestro pais",
+                "video": "https://www.youtube.com/embed/0q5z76uc8Ko",
+
                     
             },
             "en": {
@@ -99,7 +105,7 @@ $(document).ready(function() {
                 "sublinea-construccion": "Construction and Mining",
                 "sublinea-hormax": "LT Hormax",
                 "contacto": "Contact",
-                "nosotros": "About",
+                "noticias": "Notices",
                 "hormigon": "Elaborated concrete",
                 
                 // Marquee-content
@@ -179,7 +185,13 @@ $(document).ready(function() {
                         "politica-text-7": "Integrate the prevention of occupational risks in all activities and decisions, both in the technical processes, in the organization of work and in the conditions in which it is presented, as in the hierarchical line of the companies , all levels of it.",
                         "politica-text-8": "Preposing collective protections to individual protections.",
                         "politica-text-9": "Analyze the accidents and incidents that occurred in order to implement the appropriate correction measures.",
-                        "politica-text-10": "Establish the channels of communication and training necessary to enhance participation in the prevention of occupational risks.",          
+                        "politica-text-10": "Establish the channels of communication and training necessary to enhance participation in the prevention of occupational risks.",
+
+                // Noticias
+                "paraguay-video-text": "Discovering Paraguay",
+                "paraguay-video-resumen": "Brief summary of our country",
+
+                "video": "https://www.youtube.com/embed/PLZUFKS9ggU",
                     
             }
         };

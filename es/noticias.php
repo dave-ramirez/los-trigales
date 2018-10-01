@@ -43,6 +43,8 @@
     <!-- <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="../css/demo.css" /> -->
     <link rel="stylesheet" type="text/css" href="../css/set1.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet"/>
   </head>
   <body>
     <div id="loader">
@@ -62,20 +64,23 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href=".">Inicio</a></li>
-          <li><a href="nosotros.php">Reseña</a></li>
-          <li class="has-submenu"><a href="#">Líneas de negocios</a>
+          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
+          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php">Transporte</a></li>
-              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
+              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
             </ul>
           </li>
-          <li><a href="contacto.php">Contacto</a></li>
-          <li class="active"><a href="noticias.php">Noticias</a></li>
-          <!--<li class="lang-box"><a href="#">ES</a></li>
-          <li class="lang-box"><a href="#">EN</a></li>-->
+          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+          <li class="has-submenu lang-style">
+              <select class="selectpicker" id="language" data-width="fit">
+                <option  value="es" selected data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
+                <option value="en" data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
+              </select>  
+          </li>
         </ul>
       </div>
     </header>
@@ -121,18 +126,10 @@
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
-                <img src="../images/lostrigales/paraguay-es.png" alt="img14"/>
-                <figcaption>
-                  <h4>Discovering <span>Paraguay</span></h4>
-                  <p>Breve resumen de nuestro pais.</p>
-                  <a href="obras/paraguay-es.php" target="_blank">Ver mas</a>
-                </figcaption>			
-              </figure>
-              <figure class="effect-milo">
                 <img src="../images/lostrigales/paraguay-en.png" alt="img14"/>
                 <figcaption>
-                  <h4>Descubriendo <span>Paraguay</span></h4>
-                  <p>Breve resumen de nuestro pais.</p>
+                  <h4 data-translate="paraguay-video-text">Descubriendo <span>Paraguay</span></h4>
+                  <p data-translate="paraguay-video-resumen">Breve resumen de nuestro pais.</p>
                   <a href="obras/paraguay-en.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
@@ -177,7 +174,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper">Contacto</h6>
+              <h6 class="upper" data-translate="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -187,21 +184,21 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper">Sitio web</h6>
+              <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
                 <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="lineas-de-negocios.php">Líneas de negocio</a></li>
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </footer>
     <footer id="footer">
       <div class="container">
-        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p data-translate="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">
@@ -210,6 +207,9 @@
     <script type="text/javascript" src="../js/main.js"></script>    
     <script type="text/javascript" src="../js/slick.js"></script>
     <script type="text/javascript" src="../js/fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    <script src="../js/translate.js"></script>
     <script type="text/javascript">
       $('.center-slick').slick({
             centerMode: true,
@@ -252,7 +252,18 @@
 			// For Demo purposes only (show hover effect on mobile devices)
 			[].slice.call( document.querySelectorAll('a[href="#"') ).forEach( function(el) {
 				el.addEventListener( 'click', function(ev) { ev.preventDefault(); } );
-			} );
+      } );
+      
+      
+      $('#select').select2();
+      $('.selectpicker').selectpicker();
+
+
+                var $disabledResults = $(".js-example-disabled-results");
+        $disabledResults.select2();
+        $(function(){
+            $('.selectpicker').selectpicker();
+        });
 		</script>
   </body>
 </html>

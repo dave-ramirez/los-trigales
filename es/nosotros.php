@@ -68,7 +68,7 @@
             </ul>
           </li>
           <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
-          <li><a href="noticias.php" data-translate="nosotros">Noticias</a></li>
+          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
           <li class="has-submenu lang-style">
               <select class="selectpicker" id="language" data-width="fit">
                 <option  value="es" selected data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
