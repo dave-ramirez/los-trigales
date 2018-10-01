@@ -65,30 +65,27 @@
       <div id="navigation">
         <ul class="navigation-menu">
           <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php">Reseña</a></li>
-          <li class="has-submenu"><a href="#">Líneas de negocios</a>
+          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
+          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php">Transporte</a></li>
-              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php">LT Hormax</a></li>
+              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
             </ul>
           </li>
-          <li><a href="contacto.php">Contacto</a></li>
-          <li><a href="noticias.php">Noticias</a></li>
+          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php" data-translate="nosotros">Noticias</a></li>
           <li class="has-submenu lang-style">
-              <select class="selectpicker" data-width="fit">
-                <option data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
-                <option  data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
+              <select class="selectpicker" id="language" data-width="fit">
+                <option  value="es" selected data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
+                <option value="en" data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
               </select>  
           </li>
         </ul>
       </div>
       <div>
-
       </div>
     </header>
-    <div>
-    </div>
     <section id="home">
       <div id="home-slider" class="flexslider kenburn">
         <ul class="slides">
@@ -123,22 +120,22 @@
         </ul>
         <div class="Marquee">
           <div class="Marquee-content">
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >VALORAMOS su confianza...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Valoramos su confianza...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Valoramos su confianza...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Valoramos su confianza...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Dinamismo e innovación...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Soluciones integrales...</div>
-            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-1" >VALORAMOS su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-2" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-3" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-4" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-5" >Valoramos su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-6" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-7" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-8" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-9" >Valoramos su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-10" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-11" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-12" >Somos una opción diferente...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-13" >Valoramos su confianza...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-14" >Dinamismo e innovación...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-15" >Soluciones integrales...</div>
+            <div class="Marquee-tag" style="text-transform: uppercase; font-weight: bold;" data-translate="marque-16" >Somos una opción diferente...</div>
           </div>
         </div>
       </div>
@@ -148,19 +145,19 @@
         <div class="features-box">
           <a href="transporte.php">
             <div class="features-img"><img src="../images/logos/los-trigales.png" alt=""></div>
-            <div class="features-title bg-blue"><h3>Transporte</h3></div>
+            <div class="features-title bg-blue"><h3 data-translate="sublinea-transporte">Transporte</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="constructora.php">
             <div class="features-img"><img src="../images/logos/los_trigales.png" alt="" style="height: 123px;"></div>
-            <div class="features-title bg-green"><h3>Construcciones <br>Minería</h3></div>
+            <div class="features-title bg-green"><h3 data-translate="sublinea-construccion">Construcciones <br>Minería</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="lt-hormax.php">
             <div class="features-img"><img src="../images/logos/lt-hormax.png" alt=""></div>
-            <div class="features-title bg-blue"><h3>Hormigón elaborado</h3></div>
+            <div class="features-title bg-blue"><h3 data-translate="hormigon">Hormigón elaborado</h3></div>
           </a>
         </div>
       </div>
@@ -170,7 +167,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper">Contacto</h6>
+              <h6 class="upper" data-translate="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -180,12 +177,12 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper">Sitio web</h6>
+              <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
                 <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="lineas-de-negocios.php">Líneas de negocio</a></li>
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -194,7 +191,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p data-translate="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

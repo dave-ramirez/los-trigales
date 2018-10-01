@@ -10,6 +10,7 @@ $(document).ready(function() {
                     "sublinea-hormax": "LT Hormax",
                 "contacto": "Contacto",
                 "nosotros": "Nosotros",
+                "hormigon": "Hormigón elaborado",
 
                 // Marquee-content
                 "marque-1":"Valoramos su confianza...",
@@ -43,6 +44,7 @@ $(document).ready(function() {
                 "sublinea-hormax": "LT Hormax",
                 "contacto": "Contact",
                 "nosotros": "About",
+                "hormigon": "Elaborated concrete",
                 
                 // Marquee-content
                 "marque-1": "We value your trust...",
