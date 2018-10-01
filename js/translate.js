@@ -63,12 +63,32 @@ $(document).ready(function() {
                     // "texto-asfaltica-2": "CAPACIDAD 140 TN/HORA",
                     // "texto-asfaltica-3": "PRODUCCIÓN MEDIA POR MES 20.000 TN",
                 "nuestros-trabajos": "NUESTROS TRABAJOS",
-                "clientes": "NUESTROS CLIENTES"
-                    
-                    
-                    
-                    
-                       
+                "clientes": "NUESTROS CLIENTES",
+
+                // Nosotros
+                "texto-2": "LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.",
+                "mision-title": "Misión",
+                    "mision": "Contribuir a la rentabilidad de las empresas que nos contratan, prestando servicio en el lugar adecuado, momento preciso y bajo las condiciones pactadas, utilizando modernos recursos materiales movilizados por capital humano capacitado que garantizan seguridad y competencia en nuestra gestión.",
+                "vision-title": "Visión",
+                    "vision": "Impulsar nuestro rumbo hacia el liderazgo en las áreas que operamos, con altos estándares de competitividad y reconocida solvencia económica que nos permitan desarrollar nuestro trabajo ofreciendo calidad y seguridad.",
+                "valores-title": "Valores",
+                    "valores": "Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.",
+                        "subvalores-1": "Ética",
+                        "subvalores-2": "Sustentabilidad",
+                        "subvalores-3": "Liderazgo",
+                        "subvalores-4": "Responsabilidad social y ambiental",
+                "politica-title": "Políticas de seguridad y medio ambiente",
+                    "politica": "LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos",
+                        "politica-text-1": "Fomentar el progreso personal y profesional de los empleados.",
+                        "politica-text-2": "Implicar a todo el recurso humano en la orientación hacia una Gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.",
+                        "politica-text-3": "Buscar la satisfacción de los clientes como forma de asegurar la continuidad y el crecimiento de las operaciones.",
+                        "politica-text-4": "Respetar el compromiso pactado al momento de la adjudicación de un determinado trabajo.",
+                        "politica-text-5": "Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.",
+                        "politica-text-6": "Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.",
+                        "politica-text-7": "Integrar la prevención de riesgos laborales en todas las actividades y decisiones, tanto en los procesos técnicos, en la organización del trabajo y en las condiciones que éste se presente, como en la línea jerárquica de las empresas, incluidos todos los niveles de la misma.",
+                        "politica-text-8": "Anteponer las protecciones colectivas a las individuales.",
+                        "politica-text-9": "Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctoras.",
+                        "politica-text-10": "Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.",          
                     
             },
             "en": {
@@ -134,9 +154,33 @@ $(document).ready(function() {
                     // "texto-asfaltica-2": "CAPACIDAD 140 TN/HORA",
                     // "texto-asfaltica-3": "PRODUCCIÓN MEDIA POR MES 20.000 TN",
                 "nuestros-trabajos": "OUR JOBS",
-                "clientes": "OUR CLIENTS"
-                
+                "clientes": "OUR CLIENTS",
 
+                // Nosotros
+                "texto-2": "LOS TRIGALES is a Paraguayan business group dedicated to transport, construction and mining. It operates in Paraguay and countries in the region. The company has the operational and technical capacity to carry out large transport, mining and infrastructure projects.",
+                "mision-title": "Mission",
+                    "mision": "Contribute to the profitability of the companies that hire us, providing service in the right place, at the right time and under the agreed conditions, using modern material resources mobilized by trained human capital that guarantee security and competence in our management.",
+                "vision-title": "Vision",
+                    "vision": "To promote our direction towards leadership in the areas we operate, with high standards of competitiveness and recognized economic solvency that allow us to develop our work offering quality and safety.",
+                "valores-title": "Values",
+                    "valores": "They are the foundation of LOS TRIGALES ... providing a structural sense of direction common to all the people that make up the company, delineating the behavior in the daily work, fostering cohesion and developing a philosophy of differentiated management.",
+                        "subvalores-1": "Ethics",
+                        "subvalores-2": "Sustainability",
+                        "subvalores-3": "Leadership",
+                        "subvalores-4": "Social and environmental responsibility",
+                "politica-title": "Security and environmental policies",
+                    "politica": "TRIGALES, in addition to offering integral solutions to its clients in the provision of services, also operates in commitment to the safety of its officials and respect for the environment ... that is why it develops its activities following the following processes.",
+                        "politica-text-1": "Encourage personal and professional progress of employees.",
+                        "politica-text-2": "Involving the whole human resource in the orientation towards an integrated management, which criteria of quality, environment and prevention of occupational risks.",
+                        "politica-text-3": "Find customer satisfaction as a way to ensure the continuity and growth of operations.",
+                        "politica-text-4": "Respect the commitment for the moment of the award of a certain job.",
+                        "politica-text-5": "Prevent pollution, through the application of organizational and technological measures that are adequate and viable, within the framework of its competence and resources, and that incorporate the environmental criteria corresponding to its scope of performance.",
+                        "politica-text-6": "Prevention of damage to health, and improvement of occupational safety and health management.",
+                        "politica-text-7": "Integrate the prevention of occupational risks in all activities and decisions, both in the technical processes, in the organization of work and in the conditions in which it is presented, as in the hierarchical line of the companies , all levels of it.",
+                        "politica-text-8": "Preposing collective protections to individual protections.",
+                        "politica-text-9": "Analyze the accidents and incidents that occurred in order to implement the appropriate correction measures.",
+                        "politica-text-10": "Establish the channels of communication and training necessary to enhance participation in the prevention of occupational risks.",          
+                    
             }
         };
         
