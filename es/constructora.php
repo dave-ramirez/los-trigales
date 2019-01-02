@@ -253,6 +253,7 @@
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
+                <span>Codigo Postal: 2040</span>
               </p>
             </div>
           </div>
@@ -264,6 +265,7 @@
                 <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
               </ul>
             </div>
           </div>

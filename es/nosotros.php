@@ -58,8 +58,8 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
+          <li><a href="." data-translate="inicio">Inicio</a></li>
+          <li class="active"><a href="nosotros.php" data-translate="resena">Reseña</a></li>
           <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
             <ul class="submenu">
               <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
@@ -132,10 +132,10 @@
           <div>
             <p data-translate="valores">Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.</p>
             <ul>
-              <li data-translate="subvalores-1">Ética</li>
-              <li data-translate="subvalores-2">Sustentabilidad</li>
-              <li data-translate="subvalores-3">Liderazgo</li>
-              <li data-translate="subvalores-4">Responsabilidad social y ambiental</li>
+              <li style="text-transform: uppercase" data-translate="subvalores-1">Ética</li>
+              <li style="text-transform: uppercase" data-translate="subvalores-2">Sustentabilidad</li>
+              <li style="text-transform: uppercase" data-translate="subvalores-3">Liderazgo</li>
+              <li style="text-transform: uppercase" data-translate="subvalores-4">Responsabilidad social y ambiental</li>
             </ul>
           </div>
         </div>
@@ -148,16 +148,16 @@
           <div>
             <p data-translate="politica">LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos:</p>
             <ul>
-              <li data-translate="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
-              <li data-translate="politica-text-2" >Implicar a todo el recurso humano en la orientación hacia una Gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
-              <li data-translate="politica-text-3" >Buscar la satisfacción de los clientes como forma de asegurar la continuidad y el crecimiento de las operaciones.</li>
-              <li data-translate="politica-text-4" >Respetar el compromiso pactado al momento de la adjudicación de un determinado trabajo.</li>
-              <li data-translate="politica-text-5" >Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
-              <li data-translate="politica-text-6" >Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
-              <li data-translate="politica-text-7" >Integrar la prevención de riesgos laborales en todas las actividades y decisiones, tanto en los procesos técnicos, en la organización del trabajo y en las condiciones que éste se presente, como en la línea jerárquica de las empresas, incluidos todos los niveles de la misma.</li>
-              <li data-translate="politica-text-8" >Anteponer las protecciones colectivas a las individuales.</li>
-              <li data-translate="politica-text-9" >Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctoras.</li>
-              <li data-translate="politica-text-10" >Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-2">Implicar a todo el recurso humano en la orientación hacia una gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-3">Buscar la satisfacción de los clientes como forma de asegurar la continuidad y el crecimiento de las operaciones.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-4">Respetar el compromiso pactado al momento de la adjudicación de un determinado trabajo.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-5">Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-6">Prevención de daños en la salud y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-7">Integrar la prevención de riesgos laborales en todas las actividades y decisiones, tanto en los procesos técnicos, en la organización del trabajo y en las condiciones que éste se presente, como en la línea jerárquica de las empresas, incluidos todos los niveles de la misma.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-8">Anteponer las protecciones colectivas a las individuales.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctoras.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-10">Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
             </ul>
           </div>
         </div>
@@ -173,6 +173,7 @@
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
+                <span>Codigo Postal: 2040</span>
               </p>
             </div>
           </div>
@@ -184,6 +185,7 @@
                 <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
               </ul>
             </div>
           </div>

@@ -91,7 +91,7 @@
         </div>
         <div class="about-container">
           <p>Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
-          <p>Produce una amplia gama de productos e innovaciones desde hormigones estándar h100 hasta h 500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (rdc), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 30 camiones mixer y 8 bombas de hormigón.</p>
+          <p>Produce una amplia gama de productos e innovaciones desde hormigones estándar H100 hasta H500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (RDC), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 30 camiones mixer y 8 bombas de hormigón.</p>
           <p>Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.</p>
           <p>Conozca más de LT HORMAX en <a href="http://www.lthormax.com.py/">www.lthormax.com.py</a></p>
         </div>
@@ -106,7 +106,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-grey">
+    <!-- <section class="bg-grey">
       <div class="container">
         <div class="title center">
           <h2>Principales obras</h2>
@@ -128,7 +128,7 @@
           </ul>
         </div> 
       </div>
-    </section>
+    </section> -->
     <section id="trabajos">
       <div class="container hover-container">
         <div class="title center">
@@ -252,26 +252,28 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper">Contacto</h6>
+              <h6 class="upper" data-translate="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
+                <span>Codigo Postal: 2040</span>
               </p>
             </div>
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper">Sitio web</h6>
+              <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
                 <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="lineas-de-negocios.php">Líneas de negocio</a></li>
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
               </ul>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </footer>
     <footer id="footer">

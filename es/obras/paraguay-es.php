@@ -86,36 +86,6 @@
           <div style="height: 600px; margin-top: 40px;" data-translate="video">
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/0q5z76uc8Ko" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           </div>
-          <div class="work-details">
-            <div class="detail-title">
-                    <h3>Nombre del trabajo</h3>
-                    <span>Descripcion breve del trabajo</span>
-            </div>
-            <div class="detail-content">
-                <div class="detail-text">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                </div>
-                <div class="date-content">
-                    <div>
-                        <h4>Categoria</h4>
-                        <h5>Construccion</h5>
-                    </div>
-                    <div>
-                        <h4>Empresa</h4>
-                        <h5>Los Trigales</h5>
-                    </div>
-                    <div>
-                        <h4>Fecha Inicio</h4>
-                        <h5>April 20, 2017</h5>
-                    </div>
-                    <div>
-                        <h4>Fecha Finalizacion</h4>
-                        <h5>April 20, 2017</h5>
-                    </div>
-                </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -124,26 +94,28 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper">Contacto</h6>
+              <h6 class="upper" data-translate="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
+                <span>Codigo Postal: 2040</span>
               </p>
             </div>
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper">Sitio web</h6>
+              <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
                 <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="lineas-de-negocios.php">Líneas de negocio</a></li>
-                <li><a href="contacto.php">Contacto</a></li>
+                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
               </ul>
             </div>
           </div>
-        </div>        
+        </div>
       </div>
     </footer>
     <footer id="footer">
