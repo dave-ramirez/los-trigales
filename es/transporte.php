@@ -27,6 +27,7 @@
     <link rel="alternate" hreflang="en" href="https://lostrigales.com.py/en" type="text/html" />
     <meta property="og:locale:alternate" content="en" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="alternate" hreflang="es" href="https://lostrigales.com.py/es" type="text/html" />
     <meta property="og:locale:alternate" content="es" />
 
@@ -70,8 +71,12 @@
           </li>
           <li><a href="contacto.php">Contacto</a></li>
           <li><a href="noticias.php">Noticias</a></li>
-          <!--<li class="lang-box"><a href="#">ES</a></li>
-          <li class="lang-box"><a href="#">EN</a></li>-->
+          <li class="has-submenu lang-style">
+              <select class="selectpicker" id="language" data-width="fit">
+                <option  value="es" selected data-content='ESPAÑOL'></option>
+                <option value="en" data-content='INGLES'></option>
+              </select>  
+          </li>
         </ul>
       </div>
     </header>
@@ -87,12 +92,12 @@
     <section>
       <div class="container">
         <div class="title">
-          <h2>Transporte</h2>
+          <h2 data-translate="transporte-title">Transporte</h2>
         </div>
         <div class="about-container">
-          <p>Desde hacen 22 años prestamos servicios de transporte y logística, ofreciendo apoyo integral a nuestros clientes en sus operaciones, interpretando las necesidades en las que se basan sus negocios.</p>
-          <p>Somos expertos en transportar cargas secas, liquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú y Uruguay. Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.</p>
-          <p>Nuestra flota está compuesta por 240 equipos de transporte diversos, entre los que se encuentran tractos camiones, semirremolques abiertos, furgones frigoríficos, porta contenedores, cisternas y planchas transportadoras que recorren 15 millones de kilómetros al año. Cada día que pasa nuestros móviles transitan el equivalente a la circunferencia de la tierra,  es decir... una vuelta al planeta.</p>
+          <p data-translate="transporte-text-1">Desde hacen 22 años prestamos servicios de transporte y logística, ofreciendo apoyo integral a nuestros clientes en sus operaciones, interpretando las necesidades en las que se basan sus negocios.</p>
+          <p data-translate="transporte-text-2">Somos expertos en transportar cargas secas, líquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú... Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.</p>
+          <p data-translate="transporte-text-3">Nuestra flota está compuesta por 240 equipos de transporte diversos, entre los que se encuentran tractos camiones, semirremolques abiertos, furgones frigoríficos, porta contenedores, cisternas, planchas transportadoras y volquetes que recorren 15 millones de kilómetros al año. Cada día que pasa nuestros móviles transitan el equivalente a la circunferencia de la tierra,  es decir... una vuelta al planeta.</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -108,7 +113,7 @@
     <section id="gallery" class="bg-grey">
       <div class="container">
         <div class="title center">
-          <h2>Nuestros servicios</h2>
+          <h2 data-translate="servicios">Nuestros servicios</h2>
         </div>
         <div class="gallery-container">
           <ul class="info-grid">
@@ -135,15 +140,13 @@
     <section id="clients" class="bb-0">
       <div class="container-big">
         <div class="title center">
-          <h2>Nuestros clientes</h2>
+          <h2 data-translate="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
           <li><img src="../images/clients/transporte/1.png" alt=""></li>
           <li><img src="../images/clients/transporte/2.png" alt=""></li>
           <li><img src="../images/clients/transporte/3.png" alt=""></li>
-          <li><img src="../images/clients/transporte/4.png" alt=""></li>
           <li><img src="../images/clients/transporte/5.png" alt=""></li>
-          <li><img src="../images/clients/transporte/6.png" alt=""></li>
           <li><img src="../images/clients/transporte/7.png" alt=""></li>
           <li><img src="../images/clients/transporte/8.png" alt=""></li>
           <li><img src="../images/clients/transporte/9.png" alt=""></li>
@@ -166,6 +169,10 @@
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
                 <span>Codigo Postal: 2040</span>
+                <ul class="list-unstyled">
+                  <li style="display: inline-block;margin-right: 10px;"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px;"></i></a></li>
+                  <li style="display: inline-block;margin-left: 10px;"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px;"></i></a></li>
+                </ul>
               </p>
             </div>
           </div>
@@ -173,8 +180,8 @@
             <div class="widget">
               <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="." data-translate="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
@@ -199,7 +206,7 @@
      $('.center-slick').slick({
             centerMode: true,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 1500,
             centerPadding: '0px',
             slidesToShow: 5,
             responsive: [
@@ -232,6 +239,18 @@
               }
             ]
           });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    <script src="../js/translate.js"></script>
+    <script>
+      $('#select').select2();
+      $('.selectpicker').selectpicker();
+        var $disabledResults = $(".js-example-disabled-results");
+        $disabledResults.select2();
+        $(function(){
+            $('.selectpicker').selectpicker();
+        });
     </script>
   </body>
 </html>

@@ -30,6 +30,7 @@
     <link rel="alternate" hreflang="es" href="https://lostrigales.com.py/es" type="text/html" />
     <meta property="og:locale:alternate" content="es" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bundle.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/lostrigales.css">
@@ -71,8 +72,8 @@
           <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
           <li class="has-submenu lang-style">
               <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
-                <option value="en" data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
+                <option  value="es" selected data-content='ESPAÑOL'></option>
+                <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
         </ul>
@@ -93,7 +94,7 @@
           <h2>Los Trigales</h2>
         </div>
         <div class="about-container">
-          <p  data-translate="texto-2">LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.</p>
+          <p  data-translate="texto-2">LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La Compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -130,7 +131,7 @@
             </div>
           </div>
           <div>
-            <p data-translate="valores">Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.</p>
+            <p data-translate="valores">Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la Empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.</p>
             <ul>
               <li style="text-transform: uppercase" data-translate="subvalores-1">Ética</li>
               <li style="text-transform: uppercase" data-translate="subvalores-2">Sustentabilidad</li>
@@ -150,13 +151,9 @@
             <ul>
               <li style="text-transform: uppercase" data-translate="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
               <li style="text-transform: uppercase" data-translate="politica-text-2">Implicar a todo el recurso humano en la orientación hacia una gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-3">Buscar la satisfacción de los clientes como forma de asegurar la continuidad y el crecimiento de las operaciones.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-4">Respetar el compromiso pactado al momento de la adjudicación de un determinado trabajo.</li>
               <li style="text-transform: uppercase" data-translate="politica-text-5">Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-6">Prevención de daños en la salud y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-7">Integrar la prevención de riesgos laborales en todas las actividades y decisiones, tanto en los procesos técnicos, en la organización del trabajo y en las condiciones que éste se presente, como en la línea jerárquica de las empresas, incluidos todos los niveles de la misma.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-8">Anteponer las protecciones colectivas a las individuales.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctoras.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-6">Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
+              <li style="text-transform: uppercase" data-translate="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctivas.</li>
               <li style="text-transform: uppercase" data-translate="politica-text-10">Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
             </ul>
           </div>
@@ -174,6 +171,10 @@
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
                 <span>Codigo Postal: 2040</span>
+                <ul class="list-unstyled">
+                  <li style="display: inline-block;margin-right: 10px;"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px;"></i></a></li>
+                  <li style="display: inline-block;margin-left: 10px;"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px;"></i></a></li>
+                </ul>
               </p>
             </div>
           </div>
@@ -181,8 +182,8 @@
             <div class="widget">
               <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="." data-translate="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
@@ -205,8 +206,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
     <script src="../js/translate.js"></script>
     <script>
-
-                    $('#select').select2();
+      $('#select').select2();
       $('.selectpicker').selectpicker();
 
 
@@ -215,6 +215,5 @@
         $(function(){
             $('.selectpicker').selectpicker();
         });
-    
     </script>
 </html>

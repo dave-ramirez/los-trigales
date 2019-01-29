@@ -32,6 +32,7 @@
 
     <meta property="og:locale:alternate" content="es" />
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bundle.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/slick.css">
@@ -77,8 +78,8 @@
           <li class="active"><a href="noticias.php" data-translate="noticias">Noticias</a></li>
           <li class="has-submenu lang-style">
               <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='<span class="flag-icon flag-icon-es"></span> ES'></option>
-                <option value="en" data-content='<span class="flag-icon flag-icon-us"></span> EN'></option>
+                <option  value="es" selected data-content='ESPAÑOL'></option>
+                <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
         </ul>
@@ -96,7 +97,7 @@
     <section id="trabajos">
       <div class="container hover-container">
         <div class="title center">
-          <h2>Noticias</h2>
+          <h2 data-translate="noticias">Noticias</h2>
         </div>
         <div>
           <div class="content">
@@ -180,6 +181,10 @@
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
                 <span>Codigo Postal: 2040</span>
+                <ul class="list-unstyled">
+                  <li style="display: inline-block;margin-right: 10px;"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px;"></i></a></li>
+                  <li style="display: inline-block;margin-left: 10px;"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px;"></i></a></li>
+                </ul>
               </p>
             </div>
           </div>
@@ -187,8 +192,8 @@
             <div class="widget">
               <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="." data-translate="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>

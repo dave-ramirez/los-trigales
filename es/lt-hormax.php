@@ -30,6 +30,8 @@
     <link rel="alternate" hreflang="es" href="https://lostrigales.com.py/es" type="text/html" />
     <meta property="og:locale:alternate" content="es" />
 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/bundle.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/slick.css">
@@ -58,20 +60,23 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href=".">Inicio</a></li>
-          <li><a href="nosotros.php">Reseña</a></li>
-          <li class="has-submenu active"><a href="#">Líneas de negocios</a>
+          <li><a href="." data-translate="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
+          <li class="has-submenu active"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php">Transporte</a></li>
-              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
+              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
             </ul>
           </li>
-          <li><a href="contacto.php">Contacto</a></li>
-          <li><a href="noticias.php">Noticias</a></li>
-          <!--<li class="lang-box"><a href="#">ES</a></li>
-          <li class="lang-box"><a href="#">EN</a></li>-->
+          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+          <li class="has-submenu lang-style">
+              <select class="selectpicker" id="language" data-width="fit">
+                <option  value="es" selected data-content='ESPAÑOL'></option>
+                <option value="en" data-content='INGLES'></option>
+              </select>  
+          </li>
         </ul>
       </div>
     </header>
@@ -90,10 +95,10 @@
           <h2>LT Hormax</h2>
         </div>
         <div class="about-container">
-          <p>Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
-          <p>Produce una amplia gama de productos e innovaciones desde hormigones estándar H100 hasta H500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (RDC), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 30 camiones mixer y 8 bombas de hormigón.</p>
-          <p>Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.</p>
-          <p>Conozca más de LT HORMAX en <a href="http://www.lthormax.com.py/">www.lthormax.com.py</a></p>
+          <p data-translate="hormax-text-1">Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
+          <p data-translate="hormax-text-2">Produce una amplia gama de productos e innovaciones desde hormigones estándar H100 hasta H500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (RDC), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 33 camiones mixer y 8 bombas de hormigón.</p>
+          <p data-translate="hormax-text-3">Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.</p>
+          <p data-translate="hormax-text-4">Conozca más de LT HORMAX en <a href="http://www.lthormax.com.py/">www.lthormax.com.py</a></p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -129,7 +134,7 @@
         </div> 
       </div>
     </section> -->
-    <section id="trabajos">
+ <!-- <section id="trabajos">
       <div class="container hover-container">
         <div class="title center">
           <h2>Nuestros trabajos</h2>
@@ -187,12 +192,12 @@
               </figure>
             </div>
           </div>
-        </div><!-- /container -->
-    </section>
-    <!-- <section id="gallery">
+        </div>
+  </section> -->
+    <section id="gallery">
       <div class="container">
         <div class="title center">
-          <h2>Galería de imágenes<span class="dot"></span></h2>
+          <h2 data-translate="galeria">Galería de imágenes<span class="dot"></span></h2>
         </div>
         <div class="gallery-container">
           <ul class="info-grid">
@@ -220,11 +225,11 @@
           </ul>
         </div>
       </div>
-    </section> -->
+    </section>
     <section id="clients" class="bb-0">
       <div class="container-big">
         <div class="title center">
-          <h2>Nuestros clientes</h2>
+          <h2 data-translate="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
           <li><img src="../images/clients/lt-hormax/1.png" alt=""></li>
@@ -258,6 +263,10 @@
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
                 <span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span>
                 <span>Codigo Postal: 2040</span>
+                <ul class="list-unstyled">
+                  <li style="display: inline-block;margin-right: 10px;"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px;"></i></a></li>
+                  <li style="display: inline-block;margin-left: 10px;"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px;"></i></a></li>
+                </ul>
               </p>
             </div>
           </div>
@@ -265,8 +274,8 @@
             <div class="widget">
               <h6 class="upper" data-translate="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href=".">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="nosotros">Nosotros</a></li>
+                <li><a href="." data-translate="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
@@ -291,7 +300,7 @@
       $('.center-slick').slick({
             centerMode: true,
             autoplay: true,
-            autoplaySpeed: 2500,
+            autoplaySpeed: 1500,
             centerPadding: '0px',
             slidesToShow: 5,
             responsive: [
@@ -324,6 +333,18 @@
               }
             ]
           });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    <script src="../js/translate.js"></script>
+    <script>
+      $('#select').select2();
+      $('.selectpicker').selectpicker();
+        var $disabledResults = $(".js-example-disabled-results");
+        $disabledResults.select2();
+        $(function(){
+            $('.selectpicker').selectpicker();
+        });
     </script>
   </body>
 </html>

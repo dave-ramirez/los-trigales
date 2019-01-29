@@ -4,13 +4,20 @@ $(document).ready(function() {
             "es": {
                 "inicio": "Inicio",
                 "resena" : "Reseña",
-                "linea-negocio":"Línea de negocio",
+                "linea-negocio":"Línea de negocios",
                     "sublinea-transporte": "Transporte",
                     "sublinea-construccion": "Construccion y Mineria",
                     "sublinea-hormax": "LT Hormax",
                 "contacto": "Contacto",
                 "noticias": "Noticias",
                 "hormigon": "Hormigón elaborado",
+                "mensaje": "Enviar Mensaje",
+                "direccion": "Dirección",
+                "telefono": "Teléfono",
+                "email": "Email",
+                "servicios": "Nuestros servicios",
+                "galeria": "Galería de imágenes",
+
 
                 // Marquee-content
                 "marque-1":"Valoramos su confianza...",
@@ -66,28 +73,24 @@ $(document).ready(function() {
                 "clientes": "NUESTROS CLIENTES",
 
                 // Nosotros
-                "texto-2": "LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.",
+                "texto-2": "LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La Compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.",
                 "mision-title": "Misión",
                     "mision": "Contribuir a la rentabilidad de las empresas que nos contratan, prestando servicio en el lugar adecuado, momento preciso y bajo las condiciones pactadas, utilizando modernos recursos materiales movilizados por capital humano capacitado que garantizan seguridad y competencia en nuestra gestión.",
                 "vision-title": "Visión",
                     "vision": "Impulsar nuestro rumbo hacia el liderazgo en las áreas que operamos, con altos estándares de competitividad y reconocida solvencia económica que nos permitan desarrollar nuestro trabajo ofreciendo calidad y seguridad.",
                 "valores-title": "Valores",
-                    "valores": "Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.",
+                    "valores": "Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la Empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.",
                         "subvalores-1": "Ética",
                         "subvalores-2": "Sustentabilidad",
                         "subvalores-3": "Liderazgo",
                         "subvalores-4": "Responsabilidad social y ambiental",
                 "politica-title": "Políticas de seguridad y medio ambiente",
-                    "politica": "LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos",
+                    "politica": "LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos: ",
                         "politica-text-1": "Fomentar el progreso personal y profesional de los empleados.",
                         "politica-text-2": "Implicar a todo el recurso humano en la orientación hacia una Gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.",
-                        "politica-text-3": "Buscar la satisfacción de los clientes como forma de asegurar la continuidad y el crecimiento de las operaciones.",
-                        "politica-text-4": "Respetar el compromiso pactado al momento de la adjudicación de un determinado trabajo.",
                         "politica-text-5": "Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.",
                         "politica-text-6": "Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.",
-                        "politica-text-7": "Integrar la prevención de riesgos laborales en todas las actividades y decisiones, tanto en los procesos técnicos, en la organización del trabajo y en las condiciones que éste se presente, como en la línea jerárquica de las empresas, incluidos todos los niveles de la misma.",
-                        "politica-text-8": "Anteponer las protecciones colectivas a las individuales.",
-                        "politica-text-9": "Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctoras.",
+                        "politica-text-9": "Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctiv<as.",
                         "politica-text-10": "Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.", 
                 
                 // Noticias
@@ -95,7 +98,18 @@ $(document).ready(function() {
                 "paraguay-video-resumen": "Breve resumen de nuestro pais",
                 "video": "https://www.youtube.com/embed/0q5z76uc8Ko",
 
-                    
+                //Transporte
+                "transporte-title": "Transporte",
+                "transporte-text-1": "Desde hacen 22 años prestamos servicios de transporte y logística, ofreciendo apoyo integral a nuestros clientes en sus operaciones, interpretando las necesidades en las que se basan sus negocios.",
+                "transporte-text-2": "Somos expertos en transportar cargas secas, líquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú... Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.",
+                "transporte-text-3": "Nuestra flota está compuesta por 240 equipos de transporte diversos, entre los que se encuentran tractos camiones, semirremolques abiertos, furgones frigoríficos, porta contenedores, cisternas, planchas transportadoras y volquetes que recorren 15 millones de kilómetros al año. Cada día que pasa nuestros móviles transitan el equivalente a la circunferencia de la tierra, es decir... una vuelta al planeta.",
+
+                
+                //LT HORMAX
+                "hormax-text-1": "Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.",
+                "hormax-text-2": "Produce una amplia gama de productos e innovaciones desde hormigones estándar H100 hasta H500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (RDC), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 33 camiones mixer y 8 bombas de hormigón.",
+                "hormax-text-3": "Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.",
+                "hormax-text-4": "Conozca más de LT HORMAX en www.lthormax.com.py"
             },
             "en": {
                 "inicio": "Home",
@@ -107,6 +121,12 @@ $(document).ready(function() {
                 "contacto": "Contact",
                 "noticias": "Notices",
                 "hormigon": "Elaborated concrete",
+                "mensaje": "Send Message",
+                "direccion": "Address",
+                "telefono": "Phone",
+                "email": "Email",
+                "servicios": "Our services",
+                "galeria": "Image gallery",
                 
                 // Marquee-content
                 "marque-1": "We value your trust...",
@@ -192,7 +212,18 @@ $(document).ready(function() {
                 "paraguay-video-resumen": "Brief summary of our country",
 
                 "video": "https://www.youtube.com/embed/PLZUFKS9ggU",
-                    
+
+                //Transporte
+                "transporte-title": "Transport",
+                "transporte-text-1": "For 22 years we have been providing transport and logistics services, offering integral support to our clients in their operations, interpreting the needs on which their businesses are based.",
+                "transporte-text-2": "We are experts in transporting dry, liquid, refrigerated and consolidated cargo from / to Paraguay with Argentina, Brazil, Bolivia, Chile, Peru ... We carry out deconsolidation of containers in ports with extra zone merchandise.",
+                "transporte-text-3": "Our fleet is composed of 240 different transport equipment, among which are tractors trucks, open semi-trailers, refrigerated vans, container carriers, tanks, conveyor plates and dump trucks that travel 15 million kilometers a year. Each day that passes our mobiles pass the equivalent of the circumference of the earth, that is ... a return to the planet.",
+                
+                //LT HORMAX
+                "hormax-text-1": "It is the division of concrete of the Group, joint venture with HORMAX ARGENTINA, was established with the aim of looking for solutions and alternatives in the production of elaborated concrete, with high quality standards.",
+                "hormax-text-2": "Produces a wide range of products and innovations from standard H100 to H500 concrete, fast track initial high strength concrete, ultra-lightweight concrete, waterproof, fibreous and high performance concrete, density controlled fill concrete (RDC), self-compacting super fluid concrete, others. The productive capacity is 300 m3 hour through 6 automatic dosing plants with computerized management, 33 mixer trucks and 8 concrete pumps.",
+                "hormax-text-3": "It has its own boat that guarantees the cleanliness and modulus of fineness of the raw material. Among the services we can highlight the advice and professional attention, custom concrete development according to construction specifications, deliveries with double weight control, product traceability and quality control through a modern laboratory equipped with the latest technology in granulometric analysis of aggregates and rupture of test tubes.",
+                "hormax-text-4": "Learn more about LT HORMAX at www.lthormax.com.py"
             }
         };
         
