@@ -106,7 +106,7 @@
               <li><img src="../images/lostrigales/constructora-3.jpg" alt=""></li>
               <li><img src="../images/lostrigales/pilcomayo.jpg" alt=""></li>
               <li><img src="../images/lostrigales/constructora-5.jpg" alt=""></li>
-              <li><img src="../images/lostrigales/ñu-guazu_autopista.png" alt=""></li>
+              <li><img src="../images/lostrigales/FOTO7.jpeg" alt=""></li>
             </ul>
           </div>
         </div>
@@ -300,7 +300,7 @@
       $('.center-slick').slick({
             centerMode: true,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 1000,
             centerPadding: '0px',
             slidesToShow: 5,
             responsive: [

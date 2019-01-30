@@ -43,7 +43,7 @@ $(document).ready(function() {
 
                 // Constructora
                 "titulo-1": "LT VIAL - CONTRUCCIONES – MINERIA",
-                "texto-1": "Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura.",
+                "texto-1": "Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura...",
                 "nuestros-servicios": "NUESTROS SERVICIOS Y PRODUCTOS",
                 "construccion-vial": "Construcción vial",
                     // "texto-vial-1": "TERRAPLENES Y ENRIPIADOS",
@@ -89,8 +89,8 @@ $(document).ready(function() {
                         "politica-text-1": "Fomentar el progreso personal y profesional de los empleados.",
                         "politica-text-2": "Implicar a todo el recurso humano en la orientación hacia una Gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.",
                         "politica-text-5": "Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.",
-                        "politica-text-6": "Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.",
-                        "politica-text-9": "Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctiv<as.",
+                        "politica-text-6": "Prevención de daños en la salud y de mejora continúa de la gestión de la seguridad y salud en el trabajo.",
+                        "politica-text-9": "Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctivas.",
                         "politica-text-10": "Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.", 
                 
                 // Noticias
@@ -101,7 +101,7 @@ $(document).ready(function() {
                 //Transporte
                 "transporte-title": "Transporte",
                 "transporte-text-1": "Desde hacen 22 años prestamos servicios de transporte y logística, ofreciendo apoyo integral a nuestros clientes en sus operaciones, interpretando las necesidades en las que se basan sus negocios.",
-                "transporte-text-2": "Somos expertos en transportar cargas secas, líquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú... Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.",
+                "transporte-text-2": "Somos expertos en transportar cargas secas, líquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú y Uruguay... Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.",
                 "transporte-text-3": "Nuestra flota está compuesta por 240 equipos de transporte diversos, entre los que se encuentran tractos camiones, semirremolques abiertos, furgones frigoríficos, porta contenedores, cisternas, planchas transportadoras y volquetes que recorren 15 millones de kilómetros al año. Cada día que pasa nuestros móviles transitan el equivalente a la circunferencia de la tierra, es decir... una vuelta al planeta.",
 
                 
@@ -216,7 +216,7 @@ $(document).ready(function() {
                 //Transporte
                 "transporte-title": "Transport",
                 "transporte-text-1": "For 22 years we have been providing transport and logistics services, offering integral support to our clients in their operations, interpreting the needs on which their businesses are based.",
-                "transporte-text-2": "We are experts in transporting dry, liquid, refrigerated and consolidated cargo from / to Paraguay with Argentina, Brazil, Bolivia, Chile, Peru ... We carry out deconsolidation of containers in ports with extra zone merchandise.",
+                "transporte-text-2": "We are experts in transporting dry, liquid, refrigerated and consolidated cargo from / to Paraguay with Argentina, Brazil, Bolivia, Chile, Peru y Uruguay ... We carry out deconsolidation of containers in ports with extra zone merchandise.",
                 "transporte-text-3": "Our fleet is composed of 240 different transport equipment, among which are tractors trucks, open semi-trailers, refrigerated vans, container carriers, tanks, conveyor plates and dump trucks that travel 15 million kilometers a year. Each day that passes our mobiles pass the equivalent of the circumference of the earth, that is ... a return to the planet.",
                 
                 //LT HORMAX
