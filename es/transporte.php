@@ -206,7 +206,7 @@
      $('.center-slick').slick({
             centerMode: true,
             autoplay: true,
-            autoplaySpeed: 1500,
+            autoplaySpeed: 150,
             centerPadding: '0px',
             slidesToShow: 5,
             responsive: [

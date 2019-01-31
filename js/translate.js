@@ -4,7 +4,7 @@ $(document).ready(function() {
             "es": {
                 "inicio": "Inicio",
                 "resena" : "Reseña",
-                "linea-negocio":"Línea de negocios",
+                "linea-negocio":"Línea de Negocios",
                     "sublinea-transporte": "Transporte",
                     "sublinea-construccion": "Construccion y Mineria",
                     "sublinea-hormax": "LT Hormax",

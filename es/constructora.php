@@ -183,48 +183,36 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
                 <figcaption>
-                  <h4>Nombre del <span>Trabajo</span></h4>
-                  <p>Descripcion del trabajo realizado.</p>
                   <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
                 <figcaption>
-                  <h4>Nombre del <span>Trabajo</span></h4>
-                  <p>Descripcion del trabajo realizado.</p>
                   <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
                 <figcaption>
-                  <h4>Nombre del <span>Trabajo</span></h4>
-                  <p>Descripcion del trabajo realizado.</p>
                   <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/15.jpg" alt="img15"/>
                 <figcaption>
-                  <h4>Nombre del <span>Trabajo</span></h4>
-                  <p>Descripcion del trabajo realizado.</p>
                   <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/16.jpg" alt="img16"/>
                 <figcaption>
-                  <h4>Nombre del <span>Trabajo</span></h4>
-                  <p>Descripcion del trabajo realizado.</p>
                   <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
                 <figcaption>
-                  <h4>Nombre del <span>Trabajo</span></h4>
-                  <p>Descripcion del trabajo realizado.</p>
                   <a href="../es/obras/prueba.php">Ver mas</a>
                 </figcaption>			
               </figure>
@@ -300,7 +288,7 @@
       $('.center-slick').slick({
             centerMode: true,
             autoplay: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 150,
             centerPadding: '0px',
             slidesToShow: 5,
             responsive: [

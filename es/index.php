@@ -145,19 +145,19 @@
       <div class="features-container">
         <div class="features-box">
           <a href="transporte.php">
-            <div class="features-img"><img src="../images/logos/los-trigales.png" alt="" style="height: 125px;"></div>
+            <div class="features-img"><img src="../images/logos/los-trigales.png" alt="" style="height: 150px;"></div>
             <div class="features-title bg-blue"><h3 data-translate="sublinea-transporte">Transporte</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="constructora.php">
-            <div class="features-img"><img src="../images/logos/lt-01.jpeg" alt="" style="height: 125px;"></div>
+            <div class="features-img"><img src="../images/logos/lt-01.jpeg" alt="" style="height: 150px;"></div>
             <div class="features-title bg-green"><h3 data-translate="sublinea-construccion">Construcciones <br>Minería</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="lt-hormax.php">
-            <div class="features-img"><img src="../images/logos/lt-hormax.png" alt="" style="height: 125px;"></div>
+            <div class="features-img"><img src="../images/logos/lt-hormax.png" alt="" style="height: 150px;"></div>
             <div class="features-title bg-blue"><h3 data-translate="hormigon">Hormigón elaborado</h3></div>
           </a>
         </div>
