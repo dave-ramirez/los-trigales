@@ -110,8 +110,8 @@
                 <li><a href=".">Inicio</a></li>
                 <li><a href="nosotros.php" data-translate="nosotros">Reseña</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>

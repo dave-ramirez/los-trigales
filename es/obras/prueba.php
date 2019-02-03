@@ -151,8 +151,8 @@
                 <li><a href="." data-translate="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
                 <li><a href="#" data-translate="linea-negocio">Línea de Negocios</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>

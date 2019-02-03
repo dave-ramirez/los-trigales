@@ -74,8 +74,8 @@
               <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
             </ul>
           </li>
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
           <li class="active"><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
               <select class="selectpicker" id="language" data-width="fit">
                 <option  value="es" selected data-content='ESPAÑOL'></option>
@@ -195,8 +195,8 @@
                 <li><a href="." data-translate="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
                 <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
