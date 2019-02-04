@@ -82,6 +82,10 @@
                 <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
+          <li class="list-unstyled">
+              <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
+              <li class="li-redes"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px; font-weight: 400;"></i></a></li>
+          </li>
         </ul>
       </div>
       <div>
@@ -145,19 +149,19 @@
       <div class="features-container">
         <div class="features-box">
           <a href="transporte.php">
-            <div class="features-img"><img src="../images/logos/los-trigales.png" alt="" style="height: 150px;"></div>
+            <div class="features-img"><img src="../images/logos/los-trigales.png" alt="" ></div>
             <div class="features-title bg-blue"><h3 data-translate="sublinea-transporte">Transporte</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="constructora.php">
-            <div class="features-img"><img src="../images/logos/lt-01.jpeg" alt="" style="height: 150px;"></div>
+            <div class="features-img" style="padding: 0;"><img src="../images/logos/los_trigales.png" alt="" style="height: 175px;width: 78%;"></div>
             <div class="features-title bg-green"><h3 data-translate="sublinea-construccion">Construcciones <br>Minería</h3></div>
           </a>
         </div>
         <div class="features-box">
           <a href="lt-hormax.php">
-            <div class="features-img"><img src="../images/logos/lt-hormax.png" alt="" style="height: 150px;"></div>
+            <div class="features-img"><img src="../images/logos/lt-hormax.png" alt="" ></div>
             <div class="features-title bg-blue"><h3 data-translate="hormigon">Hormigón elaborado</h3></div>
           </a>
         </div>

@@ -77,6 +77,10 @@
                 <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
+          <li class="list-unstyled">
+              <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
+              <li class="li-redes"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px; font-weight: 400;"></i></a></li>
+          </li>
         </ul>
       </div>
     </header>
@@ -133,6 +137,15 @@
             <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/10.jpg);"><a href="../images/obras/transporte/10.jpg" data-fancybox="gallery-img"></a></div></li>
             <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/11.jpg);"><a href="../images/obras/transporte/11.jpg" data-fancybox="gallery-img"></a></div></li>
             <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/12.jpg);"><a href="../images/obras/transporte/12.jpg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_1.png);"><a href="../images/obras/transporte/nuevo_1.png" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_2.png);"><a href="../images/obras/transporte/nuevo_2.png" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_3.png);"><a href="../images/obras/transporte/nuevo_3.png" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_4.jpg);"><a href="../images/obras/transporte/nuevo_4.jpg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_5.jpg);"><a href="../images/obras/transporte/nuevo_5.jpg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_6.jpg);"><a href="../images/obras/transporte/nuevo_6.jpg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_7.jpg);"><a href="../images/obras/transporte/nuevo_7.jpg" data-fancybox="gallery-img"></a></div></li>
+            <li><div class="gallery-img" style="background-image: url(../images/obras/transporte/nuevo_8.jpg);"><a href="../images/obras/transporte/nuevo_8.jpg" data-fancybox="gallery-img"></a></div></li>
+
           </ul>
         </div>
       </div>
@@ -143,6 +156,8 @@
           <h2 data-translate="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
+          <li><img src="../images/clients/transporte/acindar.png" alt="" style="height: 100px;padding: 20px; margin: 0 auto;border: none;"></li>
+          <li><img src="../images/clients/transporte/FRUTO_DE_LOS_ANDES.jpg" alt="" style="padding: 0px;height: 100px;margin: 0 auto;border:none;"></li>
           <li><img src="../images/clients/transporte/1.png" alt=""></li>
           <li><img src="../images/clients/transporte/2.png" alt=""></li>
           <li><img src="../images/clients/transporte/3.png" alt=""></li>

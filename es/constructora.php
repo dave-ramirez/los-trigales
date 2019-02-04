@@ -78,6 +78,10 @@
                 <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
+          <li class="list-unstyled">
+              <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
+              <li class="li-redes"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px; font-weight: 400;"></i></a></li>
+          </li>
         </ul>
       </div>
     </header>
@@ -139,20 +143,21 @@
             <li>
               <div class="info-title" data-translate="canteras">Canteras</div>
               <div class="info-text">
-                <p>Limpio: Ripio y Cantos Rodados</p>
-                <p>Benjamin Aceval: Basalto</p>
-                <p>Pirayu: Basalto</p>
-                <p>Escobar: Basalto</p>
-                <p>Emboscada: Arenisca</p>
+                <p> <strong><ins>San Carlos - Caazapa:</ins></strong>  Basalto</p>
+                <p> <strong><ins>Escobar:</ins></strong>  Basalto</p>
+                <p> <strong><ins>Pirayu:</ins></strong> Basalto</p>
+                <p> <strong><ins>Limpio:</ins></strong> Ripio y Cantos Rodados</p>
+                <p> <strong><ins>Benjamin Aceval:</ins></strong>  Basalto</p>
+                <p> <strong><ins>Emboscada:</ins></strong> Arenisca</p>
               </div>
             </li>
             <li class="info-4">
               <div class="info-title" data-translate="plantas">Plantas trituradoras</div>
               <div class="info-text">
                 <p>Perforaciones en roca y voladuras</p>
-                <p>Planta industrial en escobar. Trituradora. Metso. Concepto nordplant</p>
-                <p>Planta de trituracion y clasificacion movil. Servicio de trituración in situ</p>
-                <p style="text-align: justify;">Productos:</p>
+                <p>Planta industrial escobar. Trituradora Metso - Concepto nordplant.</p>
+                <p>Plantas de trituracion y clasificacion movil. Servicio de trituración in situ</p>
+                <p style="text-align: justify;"><strong><ins>Productos:</ins></strong></p>
                 <p style="text-align: justify;">- Trituradora Cuarta especial  6/19  </p>
                 <p style="text-align: justify;">- Trituradora Cuarta comun 19/25</p>
                 <p style="text-align: justify;">- Trituradora Quinta 6/12</p>

@@ -76,6 +76,10 @@
                 <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
+          <li class="list-unstyled">
+              <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
+              <li class="li-redes"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px; font-weight: 400;"></i></a></li>
+          </li>
         </ul>
       </div>
     </header>
@@ -133,10 +137,10 @@
           <div>
             <p data-translate="valores">Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la Empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.</p>
             <ul>
-              <li style="text-transform: uppercase" data-translate="subvalores-1">Ética</li>
-              <li style="text-transform: uppercase" data-translate="subvalores-2">Sustentabilidad</li>
-              <li style="text-transform: uppercase" data-translate="subvalores-3">Liderazgo</li>
-              <li style="text-transform: uppercase" data-translate="subvalores-4">Responsabilidad social y ambiental</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-1">Ética</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-2">Sustentabilidad</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-3">Liderazgo</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-4">Responsabilidad social y ambiental</li>
             </ul>
           </div>
         </div>
@@ -149,12 +153,12 @@
           <div>
             <p data-translate="politica">LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos:</p>
             <ul>
-              <li style="text-transform: uppercase" data-translate="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-2">Implicar a todo el recurso humano en la orientación hacia una gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-5">Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-6">Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctivas.</li>
-              <li style="text-transform: uppercase" data-translate="politica-text-10">Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-2">Implicar a todo el recurso humano en la orientación hacia una gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-5">Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-6">Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctivas.</li>
+              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-10">Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
             </ul>
           </div>
         </div>

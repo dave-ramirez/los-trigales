@@ -82,6 +82,10 @@
                 <option value="en" data-content='INGLES'></option>
               </select>  
           </li>
+          <li class="list-unstyled">
+              <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
+              <li class="li-redes"><a href="https://www.instagram.com/grupolostrigales/?hl=es-la"><i class="fab fa-instagram" style="font-size: 30px; font-weight: 400;"></i></a></li>
+          </li>
         </ul>
       </div>
     </header>
@@ -105,56 +109,56 @@
               <figure class="effect-milo">
                 <img src="../images/lostrigales/pilcomayo.jpg" alt="Pilcomayo obra"/>
                 <figcaption>
-                  <h4>Consorcio <span>Pilcomayo</span></h4>
-                  <p>Trabajo realizado en el chaco paraguayo.</p>
+                  <h4>Consorcio <span>Pilcomayo - Boqueron.</span></h4>
+                  <!-- <p>Trabajo realizado en el chaco paraguayo.</p> -->
                   <a href="obras/pilcomayo.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/lostrigales/lt-hormax-2.jpg" alt="Mepso"/>
                 <figcaption>
-                  <h4>LT -  <span>HORMAX</span></h4>
-                  <p>LT HORMAX – Cementerio futuro</p>
+                  <h4>LT - HORMAX<span> Cementerio futuro -Luque.</span></h4>
+                  <!-- <p>LT HORMAX – Cementerio futuro -Luque.</p> -->
                   <a href="obras/lt-hormax.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/lostrigales/santisima-trinidad.jpg" alt="img14"/>
                 <figcaption>
-                  <h4>Santisima <span>Trinidad</span></h4>
-                  <p>Proyecto super viaducto ñu guasu.</p>
+                  <h4>Santisima Trinidad <span>Proyecto super viaducto ñu guasu.</span></h4>
+                  <!-- <p>Proyecto super viaducto ñu guasu.</p> -->
                   <a href="obras/trinidad.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/lostrigales/paraguay-en.png" alt="img14"/>
                 <figcaption>
-                  <h4 data-translate="paraguay-video-text">Descubriendo <span>Paraguay</span></h4>
-                  <p data-translate="paraguay-video-resumen">Breve resumen de nuestro pais.</p>
+                  <h4 data-translate="paraguay-video-text"><span>Breve resumen de nuestro pais</span></h4>
+                  <!-- <p data-translate="paraguay-video-resumen">Breve resumen de nuestro pais.</p> -->
                   <a href="obras/paraguay-en.php" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/lostrigales/guarani.png" alt="img14"/>
                 <figcaption>
-                  <h4><span>Guaraní</span></h4>
-                  <p>Guaraní, lengua del Paraguay.</p>
+                  <h4><span>Guaraní, lengua del Paraguay</span></h4>
+                  <!-- <p>Guaraní, lengua del Paraguay.</p> -->
                   <a href="https://www.facebook.com/grupolostrigales/posts/2058028447604657?__tn__=-R" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/lostrigales/obras-cartes.png" alt="img14"/>
                 <figcaption>
-                  <h4>Obras de <span>infraestructura</span></h4>
-                  <p>Fuimos #UnaOpciónDiferente en estas obras.</p>
+                  <h4><span>Ampliacion ruta 3 <br /> Mariano Roque Alonso - Limpio</span></h4>
+                  <!-- <p>Fuimos #UnaOpciónDiferente en estas obras.</p> -->
                   <a href="https://www.facebook.com/grupolostrigales/posts/1991272557613580?__tn__=-R" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/noticias/inclusion.PNG" alt="img14"/>
                 <figcaption>
-                  <h4>2ª Etapa del proyecto de incorporacion <span>Femenina</span></h4>
-                  <p>MOPC iniciará 2ª etapa del proyecto de inclusión de género en trabajos no tradicionales.</p>
+                  <h4><span>MOPC iniciará 2ª etapa del proyecto de inclusión de género en trabajos no tradicionales.</span></h4>
+                  <!-- <p>MOPC iniciará 2ª etapa del proyecto de inclusión de género en trabajos no tradicionales.</p> -->
                   <a href="https://www.mopc.gov.py/mopcweb/index.php/noticias/mopc-iniciara-2-etapa-del-proyecto-de-inclusion-de-genero-en-trabajos-no-tradicionales" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>
@@ -162,7 +166,7 @@
                 <img src="../images/noticias/mepso.jpg" alt="img15"/>
                 <figcaption>
                   <h4>Programa <span>Máquinas & Construcciones 2018</span></h4>
-                  <p>Nuestra Metso NORDPLANT 5.1 es la única máquina con sus características en toda Sudamérica.</p>
+                  <!-- <p>Nuestra Metso NORDPLANT 5.1 es la única máquina con sus características en toda Sudamérica.</p> -->
                   <a href="https://www.facebook.com/grupolostrigales/posts/2005423596198476?__xts__[0]=68.ARCuyPu5kUtHmB1KTkifQf7VIDn2dcPG_jSF5ARbr0AtPgNVj17MIQqEcns_dknkwAfbxBoDR4VXP0B4tC3Q1WW1yTWyXnPSRyoHwWRjCKc2HaCQRCxrIKra4lDV4cnIbRIxZ1k&__tn__=-R" target="_blank">Ver mas</a>
                 </figcaption>			
               </figure>

@@ -212,6 +212,7 @@ section {
   padding: 0;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+  height: 55px;
 }
 #topnav .navigation-menu > li.has-submenu > a:after {
   content: "\e64b";
@@ -250,6 +251,7 @@ section {
   text-align: center;
   font-size: 0;
   display: inline-block;
+  height: 55px;
 }
 #topnav .navigation-menu > li {
   display: inline-block;
@@ -565,7 +567,7 @@ section {
 }
 .features-img img{
   display: block;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 .features-title {
@@ -1285,4 +1287,11 @@ section {
   background: transparent;
   border: none;
   color: #fff;
+}
+
+.li-redes {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px -10px 0px;
 }
