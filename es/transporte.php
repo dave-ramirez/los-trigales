@@ -155,8 +155,8 @@
           <h2 data-translate="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
-          <li><img src="../images/clients/transporte/acindar.png" alt="" style="height: 100px;padding: 20px; margin: 0 auto;border: none;"></li>
-          <li><img src="../images/clients/transporte/FRUTO_DE_LOS_ANDES.jpg" alt="" style="padding: 0px;height: 100px;margin: 0 auto;border:none;"></li>
+          <li><img src="../images/clients/transporte/acindar.png" alt=""></li>
+          <li><img src="../images/clients/transporte/FRUTO_DE_LOS_ANDES.jpg" alt=""></li>
           <li><img src="../images/clients/transporte/1.png" alt=""></li>
           <li><img src="../images/clients/transporte/2.png" alt=""></li>
           <li><img src="../images/clients/transporte/3.png" alt=""></li>
