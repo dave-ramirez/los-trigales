@@ -133,7 +133,7 @@
               <figure class="effect-milo">
                 <img src="../images/lostrigales/paraguay-en.png" alt="img14"/>
                 <figcaption>
-                  <h4 data-translate="paraguay-video-text"><span>Breve resumen de nuestro pais</span></h4>
+                  <h4>Breve resumen del<span> paraguay</span></h4>
                   <!-- <p data-translate="paraguay-video-resumen">Breve resumen de nuestro pais.</p> -->
                   <a href="obras/paraguay-en.php" target="_blank">Ver mas</a>
                 </figcaption>			

@@ -59,18 +59,17 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href=".">Inicio</a></li>
-          <li><a href="nosotros.php">Reseña</a></li>
-          <li class="has-submenu active"><a href="#">Líneas de negocios</a>
+          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
+          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Línea de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php">Transporte</a></li>
-              <li><a href="constructora.php">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php">LT Hormax</a></li>
-              <!-- <li><a href="representaciones.php">Representaciones</a></li> -->
+              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
             </ul>
           </li>
-          <li><a href="noticias.php">Noticias</a></li>
-          <li><a href="contacto.php">Contacto</a></li>
+          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
+          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
               <select class="selectpicker" id="language" data-width="fit">
                 <option  value="es" selected data-content='ESPAÑOL'></option>

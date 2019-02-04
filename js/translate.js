@@ -94,7 +94,7 @@ $(document).ready(function() {
                         "politica-text-10": "Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.", 
                 
                 // Noticias
-                "paraguay-video-text": "Descubriendo Paraguay",
+                "paraguay-video-text": "Breve resumen de nuestro paraguay",
                 "paraguay-video-resumen": "Breve resumen de nuestro pais",
                 "video": "https://www.youtube.com/embed/0q5z76uc8Ko",
 
@@ -208,7 +208,7 @@ $(document).ready(function() {
                         "politica-text-10": "Establish the channels of communication and training necessary to enhance participation in the prevention of occupational risks.",
 
                 // Noticias
-                "paraguay-video-text": "Discovering Paraguay",
+                "paraguay-video-text": "Brief summary of our Paraguay",
                 "paraguay-video-resumen": "Brief summary of our country",
 
                 "video": "https://www.youtube.com/embed/PLZUFKS9ggU",
