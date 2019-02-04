@@ -155,7 +155,7 @@
         </div>
         <div class="features-box">
           <a href="constructora.php">
-            <div class="features-img" style="padding: 0;"><img src="../images/logos/los_trigales.png" alt="" style="height: 265px;width: 78%;"></div>
+            <div class="features-img"><img src="../images/logos/lt-nuevo.png" alt=""></div>
             <div class="features-title bg-green"><h3 data-translate="sublinea-construccion">Construcciones <br>Minería</h3></div>
           </a>
         </div>
