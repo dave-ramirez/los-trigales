@@ -224,6 +224,32 @@ section {
 #topnav .navigation-menu > li > a:focus {
   background-color: transparent;
 }
+/* button */
+#topnav .navigation-menu > li > button {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 55px;
+  padding: 0;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  height: 55px;
+  background: transparent;
+  border: none;
+}
+#topnav .navigation-menu > li.has-submenu > button:after {
+  content: "\e64b";
+  font-family: "themify";
+  margin-left: 10px;
+  font-size: 12px;
+}
+#topnav .navigation-menu > li > button:hover,
+#topnav .navigation-menu > li > button:focus {
+  background-color: transparent;
+}
 #topnav .logo {
   margin-left: 90px;
   display: block;
@@ -1295,4 +1321,24 @@ section {
   vertical-align: middle;
   margin: 0px 0px 10px 0px;
   padding: 0px 0px -10px 0px;
+}
+.idioma{
+  cursor: default!important;
+  pointer-events: none!important;
+}
+li .idioma:hover{
+  background: #008c6b!important;
+}
+
+.lang-select{
+  padding: 0px!important;
+  margin: 0px 10px 0px 10px;
+}
+
+.idioma-hover{
+  padding: 0px!important;
+}
+
+.idioma-hover:hover{
+  background: #008c6b!important;
 }

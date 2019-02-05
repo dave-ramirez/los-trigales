@@ -59,22 +59,22 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li class="active"><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Línea de negocios</a>
+          <li><a href="." class="lang" key="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+          <li class="has-submenu active"><a href="#" class="lang" key="linea-negocio">Línea de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
-            </ul>
+              <li><a href="transporte.php"  class="lang" key="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" class="lang"  key="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php"  class="lang" key="sublinea-hormax">LT Hormax</a></li>
+            </ul> 
           </li>
-          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php"  class="lang" key="noticias">Noticias</a></li>
+          <li><a href="contacto.php" class="lang"  key="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
-              <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='ESPAÑOL'></option>
-                <option value="en" data-content='INGLES'></option>
-              </select>  
+            <li class="idioma-hover"><a href="" class="lang idioma" key="idioma"><span>Idioma: </span></a></li>
+            <li class="lang-select"><button class="lang translate" id="es">ES</button></li>
+            <li class="idioma" style="padding:0;"><a href=""><span>|</span></a></li>
+            <li class="lang-select"><button class="lang translate" id="en">EN</button></li>
           </li>
           <li class="list-unstyled">
               <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
@@ -95,12 +95,12 @@
     <section>
       <div class="container">
         <div class="title">
-          <h2 data-translate="transporte-title">Transporte</h2>
+          <h2 class="lang" key="transporte-title">Transporte</h2>
         </div>
         <div class="about-container">
-          <p data-translate="transporte-text-1">Desde hacen 22 años prestamos servicios de transporte y logística, ofreciendo apoyo integral a nuestros clientes en sus operaciones, interpretando las necesidades en las que se basan sus negocios.</p>
-          <p data-translate="transporte-text-2">Somos expertos en transportar cargas secas, líquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú... Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.</p>
-          <p data-translate="transporte-text-3">Nuestra flota está compuesta por 240 equipos de transporte diversos, entre los que se encuentran tractos camiones, semirremolques abiertos, furgones frigoríficos, porta contenedores, cisternas, planchas transportadoras y volquetes que recorren 15 millones de kilómetros al año. Cada día que pasa nuestros móviles transitan el equivalente a la circunferencia de la tierra,  es decir... una vuelta al planeta.</p>
+          <p class="lang" key="transporte-text-1">Desde hacen 22 años prestamos servicios de transporte y logística, ofreciendo apoyo integral a nuestros clientes en sus operaciones, interpretando las necesidades en las que se basan sus negocios.</p>
+          <p class="lang" key="transporte-text-2">Somos expertos en transportar cargas secas, líquidas, refrigeradas y consolidadas desde/hacia Paraguay con Argentina, Brasil, Bolivia, Chile, Perú... Realizamos desconsolidación de contenedores en puertos con mercaderías de extra zona.</p>
+          <p class="lang" key="transporte-text-3">Nuestra flota está compuesta por 240 equipos de transporte diversos, entre los que se encuentran tractos camiones, semirremolques abiertos, furgones frigoríficos, porta contenedores, cisternas, planchas transportadoras y volquetes que recorren 15 millones de kilómetros al año. Cada día que pasa nuestros móviles transitan el equivalente a la circunferencia de la tierra,  es decir... una vuelta al planeta.</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -116,7 +116,7 @@
     <section id="gallery" class="bg-grey">
       <div class="container">
         <div class="title center">
-          <h2 data-translate="servicios">Nuestros servicios</h2>
+          <h2 class="lang" key="servicios">Nuestros servicios</h2>
         </div>
         <div class="gallery-container">
           <ul class="info-grid">
@@ -152,7 +152,7 @@
     <section id="clients" class="bb-0">
       <div class="container-big">
         <div class="title center">
-          <h2 data-translate="clientes">Nuestros clientes</h2>
+          <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
           <li><img src="../images/clients/transporte/acindar.png" alt=""></li>
@@ -177,7 +177,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper" data-translate="contacto">Contacto</h6>
+              <h6 class="upper lang" key="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -192,13 +192,13 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper" data-translate="web">Sitio web</h6>
+              <h6 class="upper lang" key="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href="." data-translate="inicio">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="." class="lang" key="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
+                <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -207,7 +207,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p class="lang" key="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

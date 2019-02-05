@@ -59,22 +59,22 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li ><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Línea de negocios</a>
+          <li><a href="." class="lang" key="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+          <li class="has-submenu"><a href="#" class="lang" key="linea-negocio">Línea de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
-            </ul>
+              <li><a href="transporte.php"  class="lang" key="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" class="lang"  key="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php"  class="lang" key="sublinea-hormax">LT Hormax</a></li>
+            </ul> 
           </li>
-          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-          <li class="active"><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php"  class="lang" key="noticias">Noticias</a></li>
+          <li class="active"><a href="contacto.php" class="lang"  key="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
-              <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='ESPAÑOL'></option>
-                <option value="en" data-content='INGLES'></option>
-              </select>  
+            <li class="idioma-hover"><a href="" class="lang idioma" key="idioma"><span>Idioma: </span></a></li>
+            <li class="lang-select"><button class="lang translate" id="es">ES</button></li>
+            <li class="idioma" style="padding:0;"><a href=""><span>|</span></a></li>
+            <li class="lang-select"><button class="lang translate" id="en">EN</button></li>
           </li>
           <li class="list-unstyled">
               <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
@@ -96,7 +96,7 @@
       <div class="container">
         <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
           <div class="title">
-            <h2 data-translate="contacto">Contacto</h2>
+            <h2 class="lang" key="contacto">Contacto</h2>
           </div>
           <div class="contact-form">
             <form id="contact-form" method="POST" action="../mail.php">
@@ -116,7 +116,7 @@
                 <textarea name="message" placeholder="Mensaje" data-required="true" class="form-control"></textarea>
               </div>
               <div class="form-group text-center">
-                <button type="submit" class="btn btn-color" data-translate="mensaje">Enviar mensaje</button>
+                <button type="submit" class="btn btn-color" class="lang" key="mensaje">Enviar mensaje</button>
               </div>
             </form>
           </div>
@@ -124,19 +124,19 @@
         <div class="contact-container">
           <div class="col-sm-4">
             <div class="icon-box-small"><i class="icon-map"></i>
-              <h4 data-translate="direccion">Dirección</h4>
+              <h4 class="lang" key="direccion">Dirección</h4>
               <p><span>Ruta Transchaco N° 212 Km 17.5</span><span>Mariano Roque Alonso - PARAGUAY</span></p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="icon-box-small"><i class="icon-phone"></i>
-              <h4 data-translate="telefono">Teléfono</h4>
+              <h4 class="lang" key="telefono">Teléfono</h4>
               <p><span><a href="tel+59521751325">(+595) 21 751 325</a></span><span><a href="tel:+59521755043">(+595) 21 755 043</a></span></p>
             </div>
           </div>
           <div class="col-sm-4">
             <div class="icon-box-small"><i class="icon-envelope"></i>
-              <h4 data-translate="email">Email</h4>
+              <h4 class="lang" key="email">Email</h4>
               <p><span><a href="mailto:lostrigales@lostrigales.com.py">lostrigales@lostrigales.com.py</a></span></p>
             </div>
           </div>
@@ -151,7 +151,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper" data-translate="contacto">Contacto</h6>
+              <h6 class="upper lang" key="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -166,13 +166,13 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper" data-translate="web">Sitio web</h6>
+              <h6 class="upper lang" key="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href="." data-translate="inicio">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="." class="lang" key="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
+                <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -181,7 +181,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+      <p class="lang" key="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

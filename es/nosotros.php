@@ -59,22 +59,22 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href="." data-translate="inicio">Inicio</a></li>
-          <li class="active"><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-          <li class="has-submenu"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
+          <li><a href="." class="lang" key="inicio">Inicio</a></li>
+          <li class="active"><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+          <li class="has-submenu"><a href="#" class="lang" key="linea-negocio">Línea de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
-            </ul>
+              <li><a href="transporte.php"  class="lang" key="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" class="lang"  key="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php"  class="lang" key="sublinea-hormax">LT Hormax</a></li>
+            </ul> 
           </li>
-          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php"  class="lang" key="noticias">Noticias</a></li>
+          <li><a href="contacto.php" class="lang"  key="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
-              <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='ESPAÑOL'></option>
-                <option value="en" data-content='INGLES'></option>
-              </select>  
+            <li class="idioma-hover"><a href="" class="lang idioma" key="idioma"><span>Idioma: </span></a></li>
+            <li class="lang-select"><button class="lang translate" id="es">ES</button></li>
+            <li class="idioma" style="padding:0;"><a href=""><span>|</span></a></li>
+            <li class="lang-select"><button class="lang translate" id="en">EN</button></li>
           </li>
           <li class="list-unstyled">
               <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
@@ -98,7 +98,7 @@
           <h2>Los Trigales</h2>
         </div>
         <div class="about-container">
-          <p  data-translate="texto-2">LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La Compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.</p>
+          <p  key="texto-2" class="lang">LOS TRIGALES es un grupo empresarial paraguayo que se dedica al transporte, construcción y minería. Opera en Paraguay y países de la región. La Compañía posee la capacidad operativa y técnica para la ejecución de grandes proyectos de transporte, minería y obras de infraestructura.</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -111,54 +111,54 @@
         <div class="about-row bt-0">
           <div>
             <div class="title">
-              <h3 data-translate="mision-title">Misión</h3>
+              <h3 class="lang" key="mision-title">Misión</h3>
             </div>
           </div>
           <div>
-            <p data-translate="mision">Contribuir a la rentabilidad de las empresas que nos contratan, prestando servicio en el lugar adecuado, momento preciso y bajo las condiciones pactadas, utilizando modernos recursos materiales movilizados por capital humano capacitado que garantizan seguridad y competencia en nuestra gestión.</p>
+            <p class="lang" key="mision">Contribuir a la rentabilidad de las empresas que nos contratan, prestando servicio en el lugar adecuado, momento preciso y bajo las condiciones pactadas, utilizando modernos recursos materiales movilizados por capital humano capacitado que garantizan seguridad y competencia en nuestra gestión.</p>
           </div>
         </div>
         <div class="about-row">
           <div>
             <div class="title">
-              <h3 data-translate="vision-title">Visión</h3>
+              <h3 class="lang" key="vision-title">Visión</h3>
             </div>
           </div>
           <div>
-            <p data-translate="vision">Impulsar nuestro rumbo hacia el liderazgo en las áreas que operamos, con altos estándares de competitividad y reconocida solvencia económica que nos permitan desarrollar nuestro trabajo ofreciendo calidad y seguridad.</p>
+            <p class="lang" key="vision">Impulsar nuestro rumbo hacia el liderazgo en las áreas que operamos, con altos estándares de competitividad y reconocida solvencia económica que nos permitan desarrollar nuestro trabajo ofreciendo calidad y seguridad.</p>
           </div>
         </div>
         <div class="about-row">
           <div>
             <div class="title">
-              <h3 data-translate="valores-title">Valores</h3>
+              <h3 class="lang" key="valores-title">Valores</h3>
             </div>
           </div>
           <div>
-            <p data-translate="valores">Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la Empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.</p>
+            <p class="lang" key="valores">Constituyen el cimiento de LOS TRIGALES… brindando sentido estructural de dirección común a todas las personas que componen la Empresa, delineando el comportamiento en la labor diaria, propiciando cohesión y desarrollando una filosofía de gestión diferenciada.</p>
             <ul>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-1">Ética</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-2">Sustentabilidad</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-3">Liderazgo</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="subvalores-4">Responsabilidad social y ambiental</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="subvalores-1">Ética</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="subvalores-2">Sustentabilidad</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="subvalores-3">Liderazgo</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="subvalores-4">Responsabilidad social y ambiental</li>
             </ul>
           </div>
         </div>
         <div class="about-row">
           <div>
             <div class="title">
-              <h3 data-translate="politica-title">Políticas de seguridad y medio ambiente</h3>
+              <h3 class="lang" key="politica-title">Políticas de seguridad y medio ambiente</h3>
             </div>
           </div>
           <div>
-            <p data-translate="politica">LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos:</p>
+            <p key="politica">LOS TRIGALES además de ofrecer soluciones integrales a sus clientes en la prestación de servicios, también opera en compromiso con la seguridad de sus funcionarios y respeto hacia el medio ambiente… es por ello que desarrolla sus actividades siguiendo los siguientes procesos:</p>
             <ul>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-2">Implicar a todo el recurso humano en la orientación hacia una gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-5">Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-6">Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctivas.</li>
-              <li style="text-transform: uppercase; color: #000000;" data-translate="politica-text-10">Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="politica-text-1">Fomentar el progreso personal y profesional de los empleados.</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="politica-text-2">Implicar a todo el recurso humano en la orientación hacia una gestión integrada, que incluya criterios de calidad, medio ambiente y prevención de riesgos laborales.</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="politica-text-5">Prevenir la contaminación, mediante la aplicación de medidas organizativas y tecnológicas que sean adecuadas y viables, dentro del marco de su competencia y de sus recursos e incorporando criterios ambientales en lo que corresponde su ámbito de actuación.</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="politica-text-6">Prevención de daños en la salud, y de mejora continúa de la gestión de la seguridad y salud en el trabajo.</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="politica-text-9">Analizar los accidentes e incidentes ocurridos con el fin de implantar las adecuadas medidas correctivas.</li>
+              <li style="text-transform: uppercase; color: #000000;" class="lang" key="politica-text-10">Establecer los cauces de comunicación y formación necesarios para potenciar la participación en la prevención de riesgos laborales.</li>
             </ul>
           </div>
         </div>
@@ -169,7 +169,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper" data-translate="contacto">Contacto</h6>
+              <h6 class="upper lang" key="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -184,13 +184,13 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper" data-translate="web">Sitio web</h6>
+              <h6 class="upper" class="lang" key="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href="." data-translate="inicio">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="." class="lang" key="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
+                <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -199,7 +199,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p data-translate="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p class="lang" key="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

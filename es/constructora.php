@@ -61,22 +61,22 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-          <li class="has-submenu active"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
+          <li><a href="." class="lang" key="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+          <li class="has-submenu active"><a href="#" class="lang" key="linea-negocio">Línea de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
-            </ul>
+              <li><a href="transporte.php"  class="lang" key="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" class="lang"  key="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php"  class="lang" key="sublinea-hormax">LT Hormax</a></li>
+            </ul> 
           </li>
-          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php"  class="lang" key="noticias">Noticias</a></li>
+          <li><a href="contacto.php" class="lang"  key="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
-              <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='ESPAÑOL'></option>
-                <option value="en" data-content='INGLES'></option>
-              </select>  
+            <li class="idioma-hover"><a href="" class="lang idioma" key="idioma"><span>Idioma: </span></a></li>
+            <li class="lang-select"><button class="lang translate" id="es">ES</button></li>
+            <li class="idioma" style="padding:0;"><a href=""><span>|</span></a></li>
+            <li class="lang-select"><button class="lang translate" id="en">EN</button></li>
           </li>
           <li class="list-unstyled">
               <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
@@ -97,10 +97,10 @@
     <section>
       <div class="container">
         <div class="title">
-          <h2 data-translate="titulo-1">LT VIAL - CONTRUCCIONES – MINERIA</h2>
+          <h2 class="lang" key="titulo-1">LT VIAL - CONTRUCCIONES – MINERIA</h2>
         </div>
         <div class="about-container">
-          <p data-translate="texto-1">Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura...</p>
+          <p class="lang" key="texto-1">Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura...</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -119,29 +119,29 @@
     <section class="bg-grey">
       <div class="container">
         <div class="title center">
-          <h2 data-translate="nuestros-servicios">Nuestros servicios y productos</h2>
+          <h2 class="lang" key="nuestros-servicios">Nuestros servicios y productos</h2>
         </div>
         <div class="info-container">
           <ul class="construction-grid">
             <li>
-              <div class="info-title" data-translate="construccion-vial">Construcción vial</div>
+              <div class="info-title" class="lang" key="construccion-vial">Construcción vial</div>
               <div class="info-text">
-                <p data-translate="">Terraplenes y enripiados</p>
-                <p data-translate="">Pavimentos asfálticos</p>
-                <p data-translate="">Alcantarillas y puentes</p>
-                <p data-translate="">Pavimentos de hormigón</p>
+                <p class="lang" key="">Terraplenes y enripiados</p>
+                <p class="lang" key="">Pavimentos asfálticos</p>
+                <p class="lang" key="">Alcantarillas y puentes</p>
+                <p class="lang" key="">Pavimentos de hormigón</p>
               </div>
             </li>
             <li>
-              <div class="info-title" data-translate="construccion-civil">Construcción civil</div>
+              <div class="info-title" class="lang" key="construccion-civil">Construcción civil</div>
               <div class="info-text">
-                <p data-translate="">Parques industriales</p>
-                <p data-translate="">Estaciones de servicio</p>
-                <p data-translate="">Viviendas y edificios</p>
+                <p class="lang" key="">Parques industriales</p>
+                <p class="lang" key="">Estaciones de servicio</p>
+                <p class="lang" key="">Viviendas y edificios</p>
               </div>
             </li>
             <li>
-              <div class="info-title" data-translate="canteras">Canteras</div>
+              <div class="info-title" class="lang" key="canteras">Canteras</div>
               <div class="info-text">
                 <p> <strong><ins>San Carlos - Caazapa:</ins></strong>  Basalto</p>
                 <p> <strong><ins>Escobar:</ins></strong>  Basalto</p>
@@ -152,7 +152,7 @@
               </div>
             </li>
             <li class="info-4">
-              <div class="info-title" data-translate="plantas">Plantas trituradoras</div>
+              <div class="info-title" class="lang" key="plantas">Plantas trituradoras</div>
               <div class="info-text">
                 <p>Perforaciones en roca y voladuras</p>
                 <p>Planta industrial escobar. Trituradora Metso - Concepto nordplant.</p>
@@ -166,7 +166,7 @@
               </div>
             </li>
             <li class="info-5">
-              <div class="info-title" data-translate="planta-asfaltica">Planta asfáltica</div>
+              <div class="info-title" class="lang" key="planta-asfaltica">Planta asfáltica</div>
               <div class="info-text">
                 <p>Planta de elaboración de concreto asfaltico en caliente</p>
                 <p>Capacidad 140 Tn/hora</p>
@@ -180,7 +180,7 @@
     <section id="trabajos">
       <div class="container hover-container">
         <div class="title center">
-          <h2 data-translate="nuestros-trabajos">Nuestros trabajos</h2>
+          <h2 class="lang" key="nuestros-trabajos">Nuestros trabajos</h2>
         </div>
         <div>
           <div class="content">
@@ -228,7 +228,7 @@
     <section id="clients" class="bb-0 bg-grey">
       <div class="container-big">
         <div class="title center">
-          <h2 data-translate="clientes">Nuestros clientes</h2>
+          <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
           <li><img src="../images/clients/lt-vial/4.png" alt=""></li>
@@ -247,7 +247,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper" data-translate="contacto">Contacto</h6>
+              <h6 class="upper" class="lang" key="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -262,13 +262,13 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper" data-translate="web">Sitio web</h6>
+              <h6 class="upper" class="lang" key="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href="." data-translate="inicio">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="." class="lang" key="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
+                <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -277,7 +277,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p data-translate="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p class="lang" key="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

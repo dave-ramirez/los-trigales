@@ -60,22 +60,22 @@
       </div>
       <div id="navigation">
         <ul class="navigation-menu">
-          <li><a href="." data-translate="inicio">Inicio</a></li>
-          <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-          <li class="has-submenu active"><a href="#" data-translate="linea-negocio">Líneas de negocios</a>
+          <li><a href="." class="lang" key="inicio">Inicio</a></li>
+          <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+          <li class="has-submenu active"><a href="#" class="lang" key="linea-negocio">Línea de negocios</a>
             <ul class="submenu">
-              <li><a href="transporte.php" data-translate="sublinea-transporte">Transporte</a></li>
-              <li><a href="constructora.php" data-translate="sublinea-construccion">Construcciones <br>Minería</a></li>
-              <li><a href="lt-hormax.php" data-translate="sublinea-hormax">LT Hormax</a></li>
-            </ul>
+              <li><a href="transporte.php"  class="lang" key="sublinea-transporte">Transporte</a></li>
+              <li><a href="constructora.php" class="lang"  key="sublinea-construccion">Construcciones <br>Minería</a></li>
+              <li><a href="lt-hormax.php"  class="lang" key="sublinea-hormax">LT Hormax</a></li>
+            </ul> 
           </li>
-          <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-          <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+          <li><a href="noticias.php"  class="lang" key="noticias">Noticias</a></li>
+          <li><a href="contacto.php" class="lang"  key="contacto">Contacto</a></li>
           <li class="has-submenu lang-style">
-              <select class="selectpicker" id="language" data-width="fit">
-                <option  value="es" selected data-content='ESPAÑOL'></option>
-                <option value="en" data-content='INGLES'></option>
-              </select>  
+            <li class="idioma-hover"><a href="" class="lang idioma" key="idioma"><span>Idioma: </span></a></li>
+            <li class="lang-select"><button class="lang translate" id="es">ES</button></li>
+            <li class="idioma" style="padding:0;"><a href=""><span>|</span></a></li>
+            <li class="lang-select"><button class="lang translate" id="en">EN</button></li>
           </li>
           <li class="list-unstyled">
               <li class="li-redes"><a href="https://www.facebook.com/grupolostrigales/"><i class="fab fa-facebook" style="font-size: 30px; font-weight: 400;"></i></a></li>
@@ -99,10 +99,10 @@
           <h2>LT Hormax</h2>
         </div>
         <div class="about-container">
-          <p data-translate="hormax-text-1">Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
-          <p data-translate="hormax-text-2">Produce una amplia gama de productos e innovaciones desde hormigones estándar H100 hasta H500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (RDC), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 33 camiones mixer y 8 bombas de hormigón.</p>
-          <p data-translate="hormax-text-3">Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.</p>
-          <p data-translate="hormax-text-4">Conozca más de LT HORMAX en <a href="http://www.lthormax.com.py/">www.lthormax.com.py</a></p>
+          <p class="lang" key="hormax-text-1">Es la división de concretos del Grupo, emprendimiento conjunto con HORMAX ARGENTINA, fue constituida con el fin de buscar soluciones y alternativas en la producción de hormigón elaborado, con altos estándares de calidad.</p>
+          <p class="lang" key="hormax-text-2">Produce una amplia gama de productos e innovaciones desde hormigones estándar H100 hasta H500, hormigón de alta resistencia inicial fast track, hormigón ultraliviano, impermeables, fibrados y de alto desempeño, hormigón de relleno de densidad controlada (RDC), hormigón súper fluido autocompactante, entre otros. La capacidad productiva es de 300 m3 hora mediante 6 plantas dosificadoras automáticas con gestión computarizada, 33 camiones mixer y 8 bombas de hormigón.</p>
+          <p class="lang" key="hormax-text-3">Cuenta con su propio barco arenero que garantiza la limpieza y modulo de finura adecuado de la materia prima. Entre los servicios se destacan el asesoramiento y atención profesional, desarrollo de hormigones a medida según especificación de obra, entregas con doble control de peso, trazabilidad del producto y control de calidad mediante moderno laboratorio equipado con la última tecnología en análisis granulométrico de los áridos y rotura de probetas.</p>
+          <p class="lang" key="hormax-text-4">Conozca más de LT HORMAX en <a href="http://www.lthormax.com.py/">www.lthormax.com.py</a></p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -201,7 +201,7 @@
     <section id="gallery">
       <div class="container">
         <div class="title center">
-          <h2 data-translate="galeria">Galería de imágenes<span class="dot"></span></h2>
+          <h2 class="lang" key="galeria">Galería de imágenes<span class="dot"></span></h2>
         </div>
         <div class="gallery-container">
           <ul class="info-grid">
@@ -233,7 +233,7 @@
     <section id="clients" class="bb-0">
       <div class="container-big">
         <div class="title center">
-          <h2 data-translate="clientes">Nuestros clientes</h2>
+          <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
           <li><img src="../images/clients/lt-hormax/1.png" alt=""></li>
@@ -261,7 +261,7 @@
         <div class="footer-grid">
           <div class="footer-address">
             <div class="widget">
-              <h6 class="upper" data-translate="contacto">Contacto</h6>
+              <h6 class="upper" class="lang" key="contacto">Contacto</h6>
               <p>
                 <span>Ruta Transchaco N° 212 Km 17.5, Mariano Roque Alonso - Paraguay</span>
                 <span><a href="tel:+59521751325">(+595) 21 751 325</a> - <a href="tel:+59521755043">(+595) 21 755 043</a></span>
@@ -276,13 +276,13 @@
           </div>
           <div class="footer-column">
             <div class="widget">
-              <h6 class="upper" data-translate="web">Sitio web</h6>
+              <h6 class="upper lang" key="web">Sitio web</h6>
               <ul class="list-unstyled">
-                <li><a href="." data-translate="inicio">Inicio</a></li>
-                <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
-                <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
-                <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
+                <li><a href="." class="lang" key="inicio">Inicio</a></li>
+                <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
+                <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -291,7 +291,7 @@
     </footer>
     <footer id="footer">
       <div class="container">
-        <p>© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
+        <p class="lang" key="copyrigth">© 2017 LOS TRIGALES. Todos los derechos reservados.</p>
       </div>
     </footer>
     <link href="//fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:400,500" rel="stylesheet">

@@ -17,6 +17,7 @@ $(document).ready(function() {
                 "email": "Email",
                 "servicios": "Nuestros servicios",
                 "galeria": "Galería de imágenes",
+                "idioma": "Idioma: ",
 
 
                 // Marquee-content
@@ -127,6 +128,7 @@ $(document).ready(function() {
                 "email": "Email",
                 "servicios": "Our services",
                 "galeria": "Image gallery",
+                "idioma": "Language: ",
                 
                 // Marquee-content
                 "marque-1": "We value your trust...",
@@ -249,4 +251,13 @@ $(document).ready(function() {
         
         // Set initial language to English
         set_lang(dictionary.es);
+
+        /* Segundo metodo de traduccion */
+        $('.translate').click( function() {
+            var lang = $(this).attr('id');
+
+            $('.lang').each(function(index, element) {
+                $(this).text(dictionary[lang][$(this).attr('key')]);
+            });
+        });
       });
