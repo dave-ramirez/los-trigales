@@ -144,11 +144,11 @@
               <div class="info-title" class="lang" key="canteras">Canteras</div>
               <div class="info-text">
                 <p> <strong><ins>San Carlos - Caazapa:</ins></strong>  Basalto</p>
-                <p> <strong><ins>Escobar:</ins></strong>  Basalto</p>
-                <p> <strong><ins>Pirayu:</ins></strong> Basalto</p>
-                <p> <strong><ins>Limpio:</ins></strong> Ripio y Cantos Rodados</p>
-                <p> <strong><ins>Benjamin Aceval:</ins></strong>  Basalto</p>
-                <p> <strong><ins>Emboscada:</ins></strong> Arenisca</p>
+                <p> <strong><ins>Escobar - paraguari:</ins></strong>  Basalto</p>
+                <p> <strong><ins>Pirayu - paraguari:</ins></strong> Basalto</p>
+                <p> <strong><ins>Limpio - central:</ins></strong> Ripio y Cantos Rodados</p>
+                <p> <strong><ins>Benjamin Aceval - Presidente hayes:</ins></strong>  Basalto</p>
+                <p> <strong><ins>Emboscada - cordillera:</ins></strong> Arenisca</p>
               </div>
             </li>
             <li class="info-4">
@@ -266,7 +266,7 @@
               <ul class="list-unstyled">
                 <li><a href="." class="lang" key="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Línea de negocios</a></li>
                 <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
                 <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>

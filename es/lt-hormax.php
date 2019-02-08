@@ -253,6 +253,23 @@
           <li><img src="../images/clients/lt-hormax/23.png" alt=""></li>
           <li><img src="../images/clients/lt-hormax/24.png" alt=""></li>
           <li><img src="../images/clients/lt-hormax/25.png" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/26.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/27.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/28.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/29.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/30.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/31.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/32.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/33.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/34.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/35.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/36.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/37.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/38.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/39.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/40.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/41.jpg" alt=""></li>
+          <li><img src="../images/clients/lt-hormax/42.jpg" alt=""></li>
         </div>
       </div>
     </section>
@@ -280,7 +297,7 @@
               <ul class="list-unstyled">
                 <li><a href="." class="lang" key="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Línea de negocios</a></li>
                 <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
                 <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>

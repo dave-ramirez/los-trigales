@@ -59,7 +59,7 @@
         <ul class="navigation-menu">
           <li><a href=".">Inicio</a></li>
           <li><a href="nosotros.php">Reseña</a></li>
-          <li class="has-submenu active"><a href="#">Líneas de negocios</a>
+          <li class="has-submenu active"><a href="#">Línea de negocios</a>
             <ul class="submenu">
               <li><a href="transporte.php">Transporte</a></li>
               <li><a href="constructora.php">Construcciones <br>Minería</a></li>
@@ -137,7 +137,7 @@
               <ul class="list-unstyled">
                 <li><a href="." data-translate="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" data-translate="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="lineas-de-negocios.php" data-translate="linea-negocio">Línea de negocios</a></li>
                 <li><a href="noticias.php" data-translate="noticias">Noticias</a></li>
                 <li><a href="contacto.php" data-translate="contacto">Contacto</a></li>
               </ul>

@@ -161,7 +161,7 @@
         </div>
         <div class="lang features-box">
           <a href="constructora.php">
-            <div class="features-img"><img src="../images/logos/lt-nuevo.png" alt="" style="padding: 20px 0px 20px 0px;"></div>
+            <div class="features-img"><img src="../images/logos/lt_logo.png" alt="" style="width: 50%;margin: 0px auto;padding-top: 20px;"></div>
             <div class="features-title bg-green"><h3 class="lang" key="sublinea-construccion">Construcciones <br>Minería</h3></div>
           </a>
         </div>
@@ -197,7 +197,7 @@
               <ul class="lang list-unstyled">
                 <li><a href="." class="lang"  key="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" class="lang"  key="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" class="lang"  key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang"  key="linea-negocio">Línea de negocios</a></li>
                 <li><a href="noticias.php" class="lang"  key="noticias">Noticias</a></li>
                 <li><a href="contacto.php" class="lang"  key="contacto">Contacto</a></li>
               </ul>

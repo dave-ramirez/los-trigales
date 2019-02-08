@@ -170,7 +170,7 @@
               <ul class="list-unstyled">
                 <li><a href="." class="lang" key="inicio">Inicio</a></li>
                 <li><a href="nosotros.php" class="lang" key="resena">Reseña</a></li>
-                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Líneas de negocio</a></li>
+                <li><a href="lineas-de-negocios.php" class="lang" key="linea-negocio">Línea de negocios</a></li>
                 <li><a href="noticias.php" class="lang" key="noticias">Noticias</a></li>
                 <li><a href="contacto.php" class="lang" key="contacto">Contacto</a></li>
               </ul>
