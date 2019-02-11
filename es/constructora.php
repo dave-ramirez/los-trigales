@@ -143,12 +143,12 @@
             <li>
               <div class="info-title" class="lang" key="canteras">Canteras</div>
               <div class="info-text">
-                <p> <strong><ins>San Carlos - Caazapa:</ins></strong>  Basalto</p>
-                <p> <strong><ins>Escobar - paraguari:</ins></strong>  Basalto</p>
-                <p> <strong><ins>Pirayu - paraguari:</ins></strong> Basalto</p>
-                <p> <strong><ins>Limpio - central:</ins></strong> Ripio y Cantos Rodados</p>
-                <p> <strong><ins>Benjamin Aceval - Presidente hayes:</ins></strong>  Basalto</p>
-                <p> <strong><ins>Emboscada - cordillera:</ins></strong> Arenisca</p>
+                <p> <strong>San Carlos - Caazapa:</strong>  Basalto</p>
+                <p> <strong>Escobar - paraguari:</strong>  Basalto</p>
+                <p> <strong>Pirayu - paraguari:</strong> Basalto</p>
+                <p> <strong>Limpio - central:</strong> Ripio y Cantos Rodados</p>
+                <p> <strong>Benjamin Aceval - Presidente hayes:</strong>  Basalto</p>
+                <p> <strong>Emboscada - cordillera:</strong> Arenisca</p>
               </div>
             </li>
             <li class="info-4">
@@ -188,38 +188,156 @@
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
                 <figcaption>
-                  <a href="../es/obras/prueba.php">Ver mas</a>
+                  <h4>Complejo Terminal Occidental S.A. ( TOSA)  - <span>Riacho Cabañas.</span></h4>
+                  <a href="../es/obras/monte-alegre-riacho.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
                 <figcaption>
-                  <a href="../es/obras/prueba.php">Ver mas</a>
+                  <h4>Complejo Terminal Occidental S.A. ( TOSA)  - <span>Sector Baches</span></h4>
+                  <a href="../es/obras/monte-alegre-baches.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
                 <figcaption>
-                  <a href="../es/obras/prueba.php">Ver mas</a>
+                  <h4>Ruta Nº 3 - Gral Elizardo Aquino, tramo Bella Vista Norte - Empalme Ruta 5 - <span>Departamento de Amambay y Concepción.</span></h4>
+                  <a href="../es/obras/consorcio.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/15.jpg" alt="img15"/>
                 <figcaption>
-                  <a href="../es/obras/prueba.php">Ver mas</a>
+                  <h4>Camineros de la Región Oriental - San Pedro - <span>Tramo 17 - ruta 3 - Tacuati.</span></h4>
+                  <a href="../es/obras/covipa.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/16.jpg" alt="img16"/>
                 <figcaption>
-                  <a href="../es/obras/prueba.php">Ver mas</a>
+                  <h4>Autopista Ñu Guasu - <span>Asunción - Luque - Tramo 2 - 6,3 km</span></h4>
+                  <a href="../es/obras/nu-guasu.php">Ver mas</a>
                 </figcaption>			
               </figure>
               <figure class="effect-milo">
                 <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
                 <figcaption>
-                  <a href="../es/obras/prueba.php">Ver mas</a>
+                  <h4>Red Vial Nacional - Paquete 3 - <span>Lote 1 - Contrato SG Ministro Nº 167/2015</span></h4>
+                  <a href="../es/obras/pavimento.php">Ver mas</a>
                 </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
+                <figcaption>
+                  <h4>Pavimento Zeballos Cue - Barrio Zeballos Cue - <span>Ciudad de Asunción</span></h4>
+                  <a href="../es/obras/corvian.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
+                <figcaption>
+                  <h4>Propiedad de Yguazu Cementos S.A, <span>ubicada en Villa Hayes.</span></h4>
+                  <a href="../es/obras/yguazu.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
+                <figcaption>
+                  <h4>Obras exteriores en playa de circulación <span>y otros trabajos.</span></h4>
+                  <a href="../es/obras/envases.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
+                <figcaption>
+                  <h4>Departamentos de la Región Oriental - <span>LOTES 5, 6 Y 8. ( CONSORCIO LT - BLACK).</span></h4>
+                  <a href="../es/obras/lt-black.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
+                <figcaption>
+                  <h4>AD REFERENDUM a la Reprogramación Presupuestaria - LOTE Nº 02 - ID Nº 315.021.<span>(CONSORCIO PILCOMAYO)</span></h4>
+                  <a href="../es/obras/referendum.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
+                <figcaption>
+                  <h4>Regularización Asfáltica - <span>Compañía Salado.</span></h4>
+                  <a href="../es/obras/asfaltica.php">Ver mas</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
+                <figcaption>
+                  <h4>Rehabilitación de Tramos de Caminos Vecinales <span>(CONSORCIO M & T - LT).</span></h4>
+                  <a href="../es/obras/vecinales.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
+                <figcaption>
+                  <h4>Alcatarillas Celulares y Tubulares en <span>todo el Territorio Nacional.</span></h4>
+                  <a href="../es/obras/alcantarrillas.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
+                <figcaption>
+                  <h4> Mejoramiento de Franja de Dominio de <span>Carreteras por Niveles de Servicios.</span></h4>
+                  <a href="../es/obras/dominio.php">Ver mas</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/15.jpg" alt="img15"/>
+                <figcaption>
+                  <h4>"Mejoramiento Vial de las Avenidas Primer Presidente, Julio Correa y Santísima Trinidad" - <span>LOTE 2</span></h4>
+                  <a href="../es/obras/primer-presidente.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/16.jpg" alt="img16"/>
+                <figcaption>
+                  <h4>Tramo San Juan Nepomuceno - Ruta Nº 06  comprendido entre <span>las progresivas 40+000 a 50+000</span></h4>
+                  <a href="../es/obras/nepomuceno.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/17.jpg" alt="img17"/>
+                <figcaption>
+                  <h4>FRIMOSA-Complejo <span>TOSA</span></h4>
+                  <a href="../es/obras/tosa.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/12.jpg" alt="img12"/>
+                <figcaption>
+                  <h4>UNA - Sede Santa Rosa del Aguaray - <span>Departamento de San Pedro</span></h4>
+                  <a href="../es/obras/una.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/13.jpg" alt="img13"/>
+                <figcaption>
+                  <h4>Profundización del Canal - Rio Pilcomayo - Lote II: San Antonio - <span>General Díaz (CONSORCIO RIO PILCOMAYO)</span></h4>
+                  <a href="../es/obras/consorcio-pilcomayo.php">Ver mas</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
+                <figcaption>
+                  <h4>"Mejoramiento Vial de la <span>Avenida Médicos del Chaco"</span></h4>
+                  <a href="../es/obras/medicos.php">Ver mas</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-milo">
+                <img src="../images/obras/super_viaducto/14.jpg" alt="img14"/>
+                <figcaption>
+                  <h4>Tramos de Caminos Vecinales en el <span>Departamento Central</span></h4>
+                  <a href="../es/obras/central.php">Ver mas</a>
+                </figcaption>
               </figure>
             </div>
           </div>
