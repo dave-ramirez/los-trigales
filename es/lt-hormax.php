@@ -236,40 +236,40 @@
           <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
-          <li><img src="../images/clients/lt-hormax/1.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/2.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/3.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/5.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/11.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/13.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/14.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/15.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/17.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/18.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/19.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/20.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/21.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/22.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/23.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/24.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/25.png" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/26.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/27.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/28.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/29.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/30.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/31.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/32.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/33.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/34.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/35.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/36.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/37.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/38.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/39.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/40.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/41.jpg" alt=""></li>
-          <li><img src="../images/clients/lt-hormax/42.jpg" alt=""></li>
+          <li><a href="http://www.vascol.com.py/"><img src="../images/clients/lt-hormax/1.png" alt=""></a></li>
+          <li><a href="https://www.apontelatorre.com/"><img src="../images/clients/lt-hormax/2.png" alt=""></a></li>
+          <li><a href="http://www.barrailhnos.com.py/"><img src="../images/clients/lt-hormax/3.png" alt=""></a></li>
+          <li><a href="https://portal.minervafoods.com/#"><img src="../images/clients/lt-hormax/5.png" alt=""></a></li>
+          <li><a href="https://roggio.com.py/"><img src="../images/clients/lt-hormax/11.png" alt=""></a></li>
+          <li><a href=""><img src="../images/clients/lt-hormax/13.png" alt=""></a></li>
+          <li><a href="http://bentak.com.py/site/"><img src="../images/clients/lt-hormax/14.png" alt=""></a></li>
+          <li><a href="http://www.civsa.com.py/"><img src="../images/clients/lt-hormax/15.png" alt=""></a></li>
+          <li><a href="www.artesyconstrucciones.com"><img src="../images/clients/lt-hormax/17.png" alt=""></a></li>
+          <li><a href="http://www.balpar.com.py/"><img src="../images/clients/lt-hormax/18.png" alt=""></a></li>
+          <li><a href="http://www.bubbledeck.com.ar/proyecto/22/edificio-cde-kassen"><img src="../images/clients/lt-hormax/19.png" alt=""></a></li>
+          <li><a href="http://www.copesa.com.py/"><img src="../images/clients/lt-hormax/20.png" alt=""></a></li>
+          <li><a href="https://corarinternacional.com/"><img src="../images/clients/lt-hormax/21.png" alt=""></a></li>
+          <li><a href="http://www.disal.com.py/"><img src="../images/clients/lt-hormax/22.png" alt=""></a></li>
+          <li><a href="http://www.eisa.com.py/"><img src="../images/clients/lt-hormax/23.png" alt=""></a></li>
+          <li><a href="http://www.myt.com.py/"><img src="../images/clients/lt-hormax/24.png" alt=""></a></li>
+          <li><a href="https://www.paseolagaleria.com.py/"><img src="../images/clients/lt-hormax/25.png" alt=""></a></li>
+          <li><a href="http://acierindustrial.blogspot.com/"><img src="../images/clients/lt-hormax/26.jpg" alt=""></a></li>
+          <li><a href="http://acciona.com.py/"><img src="../images/clients/lt-hormax/27.jpg" alt=""></a></li>
+          <li><a href="http://www.astillerochaco.com.py/"><img src="../images/clients/lt-hormax/28.jpg" alt=""></a></li>
+          <li><a href="http://www.baekszmuc.com/"><img src="../images/clients/lt-hormax/29.jpg" alt=""></a></li>
+          <li><a href="http://www.blok.com.py/"><img src="../images/clients/lt-hormax/30.jpg" alt=""></a></li>
+          <li><a href="http://www.geasa.com.py/"><img src="../images/clients/lt-hormax/31.jpg" alt=""></a></li>
+          <li><a href="http://www.gomezabente.com.py/"><img src="../images/clients/lt-hormax/32.jpg" alt=""></a></li>
+          <li><a href="http://ingenia.com.py/"><img src="../images/clients/lt-hormax/33.jpg" alt=""></a></li>
+          <li><a href="https://jwf.com.py/"><img src="../images/clients/lt-hormax/34.jpg" alt=""></a></li>
+          <li><a href="http://www.mura.com.py/"><img src="../images/clients/lt-hormax/35.jpg" alt=""></a></li>
+          <li><a href="http://www.otp.com.py/"><img src="../images/clients/lt-hormax/36.jpg" alt=""></a></li>
+          <li><a href="https://www.rieder.com.py/"><img src="../images/clients/lt-hormax/37.jpg" alt=""></a></li>
+          <li><a href="http://www.scc.com.py/"><img src="../images/clients/lt-hormax/38.jpg" alt=""></a></li>
+          <li><a href="http://www.syopar.com.py/"><img src="../images/clients/lt-hormax/39.jpg" alt=""></a></li>
+          <li><a href="https://towertradegroup.com/"><img src="../images/clients/lt-hormax/40.jpg" alt=""></a></li>
+          <li><a href="http://www.ubriquedesarrollos.com/"><img src="../images/clients/lt-hormax/41.jpg" alt=""></a></li>
+          <li><a href="http://www.waconstrucciones.com/"><img src="../images/clients/lt-hormax/42.jpg" alt=""></a></li>
         </div>
       </div>
     </section>

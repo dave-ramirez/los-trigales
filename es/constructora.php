@@ -100,7 +100,7 @@
           <h2 class="lang" key="titulo-1">LT VIAL - CONTRUCCIONES – MINERIA</h2>
         </div>
         <div class="about-container">
-          <p class="lang" key="texto-1">Es la división de construcción, nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura...</p>
+          <p class="lang" key="texto-1">La división de construcción nace como necesidad del país de contar con actores confiables para ampliar su infraestructura y red vial. Posee un equipo técnico de gran trayectoria que sumado a una flota de 200 máquinas y equipos diversos es de ejecutar cualquier tipo de proyecto de envergadura...</p>
         </div>
         <div class="about-img">
           <div data-options="{&quot;animation&quot;: &quot;fade&quot;, &quot;slideshowSpeed&quot;: &quot;2000&quot;,  &quot;animationSpeed&quot;: &quot;600&quot;, &quot;controlNav&quot;: true, &quot;directionNav&quot;: true}" class="flexslider nav-inside control-nav-dark">
@@ -142,13 +142,13 @@
             </li>
             <li>
               <div class="info-title" class="lang" key="canteras">Canteras</div>
-              <div class="info-text">
-                <p> <strong>San Carlos - Caazapa:</strong>  Basalto</p>
-                <p> <strong>Escobar - paraguari:</strong>  Basalto</p>
-                <p> <strong>Pirayu - paraguari:</strong> Basalto</p>
-                <p> <strong>Limpio - central:</strong> Ripio y Cantos Rodados</p>
-                <p> <strong>Benjamin Aceval - Presidente hayes:</strong>  Basalto</p>
-                <p> <strong>Emboscada - cordillera:</strong> Arenisca</p>
+              <div class="info-text" style="text-align: left;">
+                <p> <strong>> San Carlos - Caazapa:</strong>  Basalto</p>
+                <p> <strong>> Escobar - paraguari:</strong>  Basalto</p>
+                <p> <strong>> Pirayu - paraguari:</strong> Basalto</p>
+                <p> <strong>> Limpio - central:</strong> Ripio y Cantos Rodados</p>
+                <p> <strong>> Benjamin Aceval - Presidente hayes:</strong>  Basalto</p>
+                <p> <strong>> Emboscada - cordillera:</strong> Arenisca</p>
               </div>
             </li>
             <li class="info-4">
@@ -349,14 +349,14 @@
           <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
-          <li><img src="../images/clients/lt-vial/4.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/5.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/7.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/8.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/9.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/10.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/12.png" alt=""></li>
-          <li><img src="../images/clients/lt-vial/16.png" alt=""></li>
+          <!-- <li><a href="http://www.montealegre.com.py/"><img src="../images/clients/lt-vial/4.png" alt=""></a></li>
+          <li><a href="http://www.jca.com.py/"><img src="../images/clients/lt-vial/5.png" alt=""></a></li>
+          <li><a href="http://www.aleacionesyguazu.com/"><img src="../images/clients/lt-vial/7.png" alt=""></a></li>
+          <li><a href="http://terminaloccidental.com.py/"><img src="../images/clients/lt-vial/8.png" alt=""></a></li> -->
+          <li><a href="http://www.concretmix.com.py/"><img src="../images/clients/lt-vial/9.png" alt=""></a></li>
+          <li><a href="http://www.cddsa.com.py/"><img src="../images/clients/lt-vial/10.png" alt=""></a></li>
+          <li><a href="http://www.covipa.com.py/"><img src="../images/clients/lt-vial/12.png" alt=""></a></li>
+          <li><a href="http://www.construpar.com.py/"><img src="../images/clients/lt-vial/16.png" alt=""></a></li>
         </div>
       </div>
     </section>

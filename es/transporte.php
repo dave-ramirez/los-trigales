@@ -155,20 +155,19 @@
           <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
-          <li><img src="../images/clients/transporte/acindar.png" alt=""></li>
-          <li><img src="../images/clients/transporte/FRUTO_DE_LOS_ANDES.jpg" alt=""></li>
-          <li><img src="../images/clients/transporte/1.png" alt=""></li>
-          <li><img src="../images/clients/transporte/2.png" alt=""></li>
-          <li><img src="../images/clients/transporte/3.png" alt=""></li>
-          <li><img src="../images/clients/transporte/5.png" alt=""></li>
-          <li><img src="../images/clients/transporte/7.png" alt=""></li>
-          <li><img src="../images/clients/transporte/8.png" alt=""></li>
-          <li><img src="../images/clients/transporte/9.png" alt=""></li>
-          <li><img src="../images/clients/transporte/10.png" alt=""></li>
-          <li><img src="../images/clients/transporte/11.png" alt=""></li>
-          <li><img src="../images/clients/transporte/12.png" alt=""></li>
-          <li><img src="../images/clients/transporte/13.png" alt=""></li>
-          <li><img src="../images/clients/transporte/14.png" alt=""></li>
+          <li><a href="http://www.acindar.com.ar/"><img src="../images/clients/transporte/acindar.png" alt=""></a></li>
+          <li><a href="http://www.frutosdelosandes.com.py/"><img src="../images/clients/transporte/FRUTO_DE_LOS_ANDES.jpg" alt=""></a></li>
+          <li><a href="https://cencoprod.com/"><img src="../images/clients/transporte/1.png" alt=""></a></li>
+          <li><a href="http://www.chortitzer.com.py/home.php"><img src="../images/clients/transporte/2.png" alt=""></a></li>
+          <li><a href="http://www.colgate.com.py"><img src="../images/clients/transporte/3.png" alt=""></a></li>
+          <li><a href="https://portal.minervafoods.com/#"><img src="../images/clients/transporte/5.png" alt=""></a></li>
+          <li><a href="https://portal.minervafoods.com/es"><img src="../images/clients/transporte/8.png" alt=""></a></li>
+          <li><a href="http://www.molinoselpais.com.py/"><img src="../images/clients/transporte/9.png" alt=""></a></li>
+          <li><a href="https://www.nestle.com.py/"><img src="../images/clients/transporte/10.png" alt=""></a></li>
+          <li><a href="http://www.neuland.com.py/"><img src="../images/clients/transporte/11.png" alt=""></a></li>
+          <li><a href="http://www.tigre.com.py/"><img src="../images/clients/transporte/12.png" alt=""></a></li>
+          <li><a href="https://www.unilever.com.py/"><img src="../images/clients/transporte/13.png" alt=""></a></li>
+          <li><a href="http://www.vascol.com.py/"><img src="../images/clients/transporte/14.png" alt=""></a></li>
         </div>
       </div>
     </section>
