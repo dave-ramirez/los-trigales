@@ -126,23 +126,23 @@
             <li>
               <div class="info-title" class="lang" key="construccion-vial">Construcción vial</div>
               <div class="info-text">
-                <p class="lang" key="">Terraplenes y enripiados</p>
-                <p class="lang" key="">Pavimentos asfálticos</p>
-                <p class="lang" key="">Alcantarillas y puentes</p>
-                <p class="lang" key="">Pavimentos de hormigón</p>
+                <p class="lang" key="">> Terraplenes y enripiados</p>
+                <p class="lang" key="">> Pavimentos asfálticos</p>
+                <p class="lang" key="">> Alcantarillas y puentes</p>
+                <p class="lang" key="">> Pavimentos de hormigón</p>
               </div>
             </li>
             <li>
               <div class="info-title" class="lang" key="construccion-civil">Construcción civil</div>
               <div class="info-text">
-                <p class="lang" key="">Parques industriales</p>
-                <p class="lang" key="">Estaciones de servicio</p>
-                <p class="lang" key="">Viviendas y edificios</p>
+                <p class="lang" key="">> Parques industriales</p>
+                <p class="lang" key="">> Estaciones de servicio</p>
+                <p class="lang" key="">> Viviendas y edificios</p>
               </div>
             </li>
             <li>
               <div class="info-title" class="lang" key="canteras">Canteras</div>
-              <div class="info-text" style="text-align: left;">
+              <div class="info-text">
                 <p> <strong>> San Carlos - Caazapa:</strong>  Basalto</p>
                 <p> <strong>> Escobar - paraguari:</strong>  Basalto</p>
                 <p> <strong>> Pirayu - paraguari:</strong> Basalto</p>
@@ -154,9 +154,9 @@
             <li class="info-4">
               <div class="info-title" class="lang" key="plantas">Plantas trituradoras</div>
               <div class="info-text">
-                <p>Perforaciones en roca y voladuras</p>
-                <p>Planta industrial escobar. Trituradora Metso - Concepto nordplant.</p>
-                <p>Plantas de trituracion y clasificacion movil. Servicio de trituración in situ</p>
+                <p>> Perforaciones en roca y voladuras</p>
+                <p>> Planta industrial escobar. Trituradora Metso - Concepto nordplant.</p>
+                <p>> Plantas de trituracion y clasificacion movil. Servicio de trituración in situ</p>
                 <p style="text-align: justify;"><strong><ins>Productos:</ins></strong></p>
                 <p style="text-align: justify;">- Trituradora Cuarta especial  6/19  </p>
                 <p style="text-align: justify;">- Trituradora Cuarta comun 19/25</p>
@@ -168,9 +168,9 @@
             <li class="info-5">
               <div class="info-title" class="lang" key="planta-asfaltica">Planta asfáltica</div>
               <div class="info-text">
-                <p>Planta de elaboración de concreto asfaltico en caliente</p>
-                <p>Capacidad 140 Tn/hora</p>
-                <p>Producción media por mes 20.000 Tn</p>
+                <p>> Planta de elaboración de concreto asfaltico en caliente</p>
+                <p>> Capacidad 140 Tn/hora</p>
+                <p>> Producción media por mes 20.000 Tn</p>
               </div>
             </li>
           </ul>
@@ -349,10 +349,10 @@
           <h2 class="lang" key="clientes">Nuestros clientes</h2>
         </div>
         <div class="center-slick slider">
-          <!-- <li><a href="http://www.montealegre.com.py/"><img src="../images/clients/lt-vial/4.png" alt=""></a></li>
+          <li><a href="http://www.montealegre.com.py/"><img src="../images/clients/lt-vial/4.png" alt=""></a></li>
           <li><a href="http://www.jca.com.py/"><img src="../images/clients/lt-vial/5.png" alt=""></a></li>
           <li><a href="http://www.aleacionesyguazu.com/"><img src="../images/clients/lt-vial/7.png" alt=""></a></li>
-          <li><a href="http://terminaloccidental.com.py/"><img src="../images/clients/lt-vial/8.png" alt=""></a></li> -->
+          <li><a href="http://terminaloccidental.com.py/"><img src="../images/clients/lt-vial/8.png" alt=""></a></li>
           <li><a href="http://www.concretmix.com.py/"><img src="../images/clients/lt-vial/9.png" alt=""></a></li>
           <li><a href="http://www.cddsa.com.py/"><img src="../images/clients/lt-vial/10.png" alt=""></a></li>
           <li><a href="http://www.covipa.com.py/"><img src="../images/clients/lt-vial/12.png" alt=""></a></li>

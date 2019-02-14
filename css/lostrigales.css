@@ -916,6 +916,7 @@ section {
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 15px;
+  text-align: left;
 }
 .info-text p:last-child{
   margin-bottom: 0;
